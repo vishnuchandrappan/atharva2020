@@ -11,15 +11,42 @@
 body {
   font-family: $font_1;
   background-color: #0e0d0d;
+  overflow-x: hidden;
 }
 
+a {
+  color: inherit;
+  text-decoration: none;
+  &:hover {
+    text-decoration: none;
+    color: inherit;
+    display: inline-block;
+    transform: scale(1.2);
+  }
+}
+
+.fa {
+  display: none;
+}
+
+@media screen and (max-width: 768px) {
+  .fa {
+    margin-left: 20px;
+    transform: scale(2.2);
+    display: inline-block;
+  }
+}
+
+.active{
+  opacity: 0.1;
+}
 
 main {
   position: absolute;
   top: 0;
   left: 0;
-  width: 100vw;
-  height: 100vh;
+  width: 100vw !important;
+  height: 100vh !important;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -32,6 +59,18 @@ main {
   }
 }
 
+@media screen and (min-width: 1024px) {
+  main {
+    .hero {
+      img {
+        height: 70vh;
+        opacity: 0.1;
+        width: auto;
+      }
+    }
+  }
+}
+
 @media screen and (max-width: 768px) {
   main {
     .hero {
@@ -40,5 +79,18 @@ main {
         z-index: -1;
       }
     }
+  }
+}
+
+section {
+  max-width: 70%;
+  margin: 2vh auto;
+  margin-bottom: 100px;
+}
+
+@media screen and (max-width: 768px) {
+  section {
+    max-width: 90%;
+    text-align: justify;
   }
 }
