@@ -10,3 +10,10 @@ burger.addEventListener("click", () => {
         section.classList.toggle('active');
     });
 });
+
+const cards = document.querySelectorAll('.card');
+cards.forEach(card => {
+    // card.addEventListener("click",() => {
+    //     card.classList.toggle("card-active");
+    // });
+});
