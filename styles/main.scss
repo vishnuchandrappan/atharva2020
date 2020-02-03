@@ -107,6 +107,7 @@ section {
     float: right;
     border-radius: 5px;
     background-image: url("https://images.pexels.com/photos/3228685/pexels-photo-3228685.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260");
+    // background-image: url('https://picsum.photos/200');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -128,7 +129,6 @@ section {
       h1 {
         left: -20vw;
         font-size: 6rem;
-        -webkit-text-stroke: 2px #0e0d0d;
         -webkit-text-fill-color: lavenderblush;
       }
     }
