@@ -266,7 +266,31 @@ section {
   width: 100vw;
   height: 100vh;
   position: relative;
-  top: 100px;
+  top: 0;
+  padding-top: 100px;
+}
+
+.face .down-arrow {
+  position: relative;
+  bottom: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 65vh;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.face .down-arrow i {
+  display: block;
+  color: lavender;
+  border: solid 1px;
+  padding: 10px;
+  border-radius: 50%;
+  -webkit-animation: jump 0.6s alternate infinite;
+          animation: jump 0.6s alternate infinite;
+  cursor: pointer;
 }
 
 .face .title-container {
@@ -391,6 +415,28 @@ section {
   }
   to {
     opacity: 0;
+  }
+}
+
+@-webkit-keyframes jump {
+  from {
+    -webkit-transform: translateY(-20px);
+            transform: translateY(-20px);
+  }
+  to {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+}
+
+@keyframes jump {
+  from {
+    -webkit-transform: translateY(-20px);
+            transform: translateY(-20px);
+  }
+  to {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
   }
 }
 /*# sourceMappingURL=main.css.map */
