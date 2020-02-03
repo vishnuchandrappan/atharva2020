@@ -123,8 +123,8 @@ section {
     background-color: lavenderblush;
     float: right;
     border-radius: 5px;
-    // background-image: url("https://images.pexels.com/photos/3228685/pexels-photo-3228685.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260");
-    background-image: url("https://picsum.photos/200");
+    background-image: url("https://images.pexels.com/photos/3228685/pexels-photo-3228685.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260");
+    // background-image: url("https://picsum.photos/200");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -172,7 +172,7 @@ section {
   top: 0 !important;
   z-index: 10;
   left: 0;
-  background-color: crimson;
+  background-color: #0e0d0d;
   width: 100vw;
   height: 100vh;
   max-width: none;
@@ -186,6 +186,7 @@ section {
     padding: 4px;
     animation: 1s rotate linear infinite;
     border-radius: 50%;
+    color: lavenderblush;
   }
   .outer {
     border-top-color: transparent;
