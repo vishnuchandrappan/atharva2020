@@ -114,7 +114,8 @@ header nav .nav-links span {
             justify-content: space-evenly;
     border-radius: 50%;
     padding: 10px;
-    background-color: #bf9d31;
+    background: -webkit-gradient(linear, left top, right top, from(#a77516), to(#d9c84e));
+    background: linear-gradient(to right, #a77516, #d9c84e);
   }
   header nav .burger span {
     background-color: lavenderblush;
