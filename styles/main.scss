@@ -106,8 +106,8 @@ section {
     background-color: lavenderblush;
     float: right;
     border-radius: 5px;
-    background-image: url("https://images.pexels.com/photos/3228685/pexels-photo-3228685.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260");
-    // background-image: url('https://picsum.photos/200');
+    // background-image: url("https://images.pexels.com/photos/3228685/pexels-photo-3228685.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260");
+    background-image: url('https://picsum.photos/200');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -147,5 +147,56 @@ section {
         -webkit-text-stroke: 1px #0e0d0d;
       }
     }
+  }
+}
+
+
+.loading{
+  position: fixed !important;
+  top: 0 !important;
+  z-index: 10;
+  left: 0;
+  background-color: crimson;
+  width: 100vw;
+  height: 100vh;
+  max-width: none;
+  max-height: none;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  .circle{
+    border: 3px solid;
+    padding: 4px;
+    animation: 1s rotate linear infinite;
+    border-radius: 50%;
+  }
+  .outer{
+    border-top-color: transparent;
+    .inner{
+      border-left-color: transparent;
+      padding: 10px;
+      animation-direction: reverse;
+      animation-duration: 0.5s;
+    }
+  }
+}
+
+
+@keyframes rotate{
+  from{
+    transform: rotateZ(360deg);
+  }
+  to{
+    transform: rotate(0);
+  }
+}
+
+@keyframes fade{
+  from{
+    opacity: 1;
+  }
+  to{
+    opacity: 0;
   }
 }
