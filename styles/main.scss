@@ -37,7 +37,7 @@ a {
   }
 }
 
-.active{
+.active {
   opacity: 0.1;
 }
 
@@ -92,5 +92,60 @@ section {
   section {
     max-width: 90%;
     text-align: justify;
+  }
+}
+
+.face {
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+  top: 100px;
+  .title-container {
+    width: 50vw;
+    height: 50vh;
+    background-color: lavenderblush;
+    float: right;
+    border-radius: 5px;
+    background-image: url("https://images.pexels.com/photos/3228685/pexels-photo-3228685.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    h1 {
+      letter-spacing: 4px;
+      position: relative;
+      top: 35vh;
+      left: -15vw;
+      font-size: 8rem;
+      -webkit-text-stroke: 2px #0e0d0d;
+      -webkit-text-fill-color: lavenderblush;
+    }
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .face {
+    .title-container {
+      h1 {
+        left: -20vw;
+        font-size: 6rem;
+        -webkit-text-stroke: 2px #0e0d0d;
+        -webkit-text-fill-color: lavenderblush;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .face {
+    .title-container {
+      width: 70vw;
+      height: 60vh;
+      h1 {
+        letter-spacing: 2px;
+        top: 40vh;
+        font-size: 4rem;
+        -webkit-text-stroke: 1px #0e0d0d;
+      }
+    }
   }
 }
