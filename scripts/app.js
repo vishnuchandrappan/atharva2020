@@ -11,13 +11,6 @@ burger.addEventListener("click", () => {
   });
 });
 
-const cards = document.querySelectorAll(".card");
-cards.forEach(card => {
-  // card.addEventListener("click",() => {
-  //     card.classList.toggle("card-active");
-  // });
-});
-
 const container = document.querySelector(".card-container");
 
 data.forEach(item => {
@@ -38,4 +31,22 @@ data.forEach(item => {
   el.appendChild(description);
 
   container.appendChild(el);
+
+  init();
 });
+
+const closeBtn = document.querySelector(".fa-times");
+const popUp = document.querySelector(".pop-up");
+
+closeBtn.addEventListener("click", () => {
+  popUp.style.display = "none";
+});
+
+function init(){
+  const cards = document.querySelectorAll(".card");
+  cards.forEach(card => {
+    card.addEventListener("click", () => {
+      popUp.style.display = "block";
+    });
+  });
+};

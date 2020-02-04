@@ -124,6 +124,9 @@ section {
       border-radius: 50%;
       animation: jump 0.6s alternate infinite;
       cursor: pointer;
+      &:hover {
+        animation: none;
+      }
     }
   }
   .title-container {
@@ -332,10 +335,11 @@ section {
   height: 79vh;
   display: block;
   margin: 100px auto;
-  background-color: rgba(lavenderblush,0.7);
+  background-color: lavenderblush;
   color: black;
   padding-top: 100px;
   border-radius: 10px !important;
+  // padding: 5px;
   .menu {
     display: flex;
     justify-content: flex-end;
@@ -344,6 +348,65 @@ section {
     position: relative;
     top: -85px;
     padding-right: 5px;
+    max-width: 95%;
+    margin: auto;
+  }
+  .contents{
+    max-width: 95%;
+    margin: auto;
+  }
+  .contact{
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    padding: 10px;
+    box-shadow: 0px -2px 20px;
+    i{
+      transform: none;
+    }
   }
   display: none;
+  animation: scaleUp 0.6s alternate;
+}
+
+
+@keyframes scaleUp{
+  from{
+    transform: scale(0) rotate(360deg);
+  }
+  to{
+    transform: scale(1) rotate(0);
+  }
+}
+
+@keyframes test {
+  11.1% {
+    transform: none
+  }
+  22.2% {
+    transform: skewX(-12.5deg) skewY(-12.5deg)
+  }
+  33.3% {
+    transform: skewX(6.25deg) skewY(6.25deg)
+  }
+  44.4% {
+    transform: skewX(-3.125deg) skewY(-3.125deg)
+  }
+  55.5% {
+    transform: skewX(1.5625deg) skewY(1.5625deg)
+  }
+  66.6% {
+    transform: skewX(-0.78125deg) skewY(-0.78125deg)
+  }
+  77.7% {
+    transform: skewX(0.390625deg) skewY(0.390625deg)
+  }
+  88.8% {
+    transform: skewX(-0.1953125deg) skewY(-0.1953125deg)
+  }
+  100% {
+    transform: none
+  }
 }
