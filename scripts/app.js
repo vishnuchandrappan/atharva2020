@@ -16,7 +16,7 @@ const container = document.querySelector(".card-container");
 data.forEach(item => {
   let el = document.createElement("div");
   el.classList.add("card");
-  el.setAttribute("id",item.id);
+  el.setAttribute("id", item.id);
   let image = document.createElement("img");
   image.setAttribute("src", item.image);
   image.classList.add("card-img");
@@ -38,18 +38,54 @@ data.forEach(item => {
 
 const closeBtn = document.querySelector(".fa-times");
 const popUp = document.querySelector(".pop-up");
-const itemName = document.getElementById('pop-up-name');
+const itemName = document.getElementById("pop-up-name");
+const popUpPrize = document.getElementById("pop-up-prize");
+const popUpImage = document.getElementById("pop-up-image");
+const popUpRegistration = document.getElementById("pop-up-registration");
+const popUpRules = document.getElementById("pop-up-rules");
 
 closeBtn.addEventListener("click", () => {
   popUp.style.display = "none";
 });
 
-function init(){
+var currentCard = null;
+
+function init() {
   const cards = document.querySelectorAll(".card");
   cards.forEach(card => {
     card.addEventListener("click", () => {
-      popUp.style.display = "block";
-      itemName.innerText = "New Name";
+      currentCard = parseInt(card.id);
+      setData();
     });
   });
-};
+}
+
+function setData() {
+  var a = data.filter(obj => {
+    return obj.id === currentCard;
+  });
+
+  itemName.innerText = a[0].name;
+  popUpRules.innerText = a[0].description;
+  popUpPrize.innerText = a[0].prize;
+  popUpRegistration.innerText = a[0].registration;
+
+  popUp.style.display = "block";
+}
+
+const leftBtn = document.getElementById("left");
+const rightBtn = document.getElementById("right");
+
+leftBtn.addEventListener("click", () => {
+  if(currentCard!=data[0].id){
+    currentCard--;
+    setData();
+  }
+});
+
+rightBtn.addEventListener("click", () => {
+  if(currentCard!=data.length){
+    currentCard++;
+    setData();
+  }
+});
