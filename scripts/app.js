@@ -16,6 +16,7 @@ const container = document.querySelector(".card-container");
 data.forEach(item => {
   let el = document.createElement("div");
   el.classList.add("card");
+  el.setAttribute("id",item.id);
   let image = document.createElement("img");
   image.setAttribute("src", item.image);
   image.classList.add("card-img");
@@ -37,6 +38,7 @@ data.forEach(item => {
 
 const closeBtn = document.querySelector(".fa-times");
 const popUp = document.querySelector(".pop-up");
+const itemName = document.getElementById('pop-up-name');
 
 closeBtn.addEventListener("click", () => {
   popUp.style.display = "none";
@@ -47,6 +49,7 @@ function init(){
   cards.forEach(card => {
     card.addEventListener("click", () => {
       popUp.style.display = "block";
+      itemName.innerText = "New Name";
     });
   });
 };
