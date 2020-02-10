@@ -12,12 +12,12 @@ const data = [
     name: "Event 2",
     image: "https://picsum.photos/200/300",
     description: "Lorm ipsum 2",
-    prize: "First : Rs. 2000",
+    prize: "First : Rs. 2000, Second: Rs. 1000",
     registration: "150"
   },
   {
     id: 3,
-    name: "Event 3",
+    name: "Event 3_edited",
     image: "https://picsum.photos/200/300",
     description: "Lorm ipsum 3",
     prize: "First : Rs. 2000",
