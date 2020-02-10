@@ -8,6 +8,7 @@ burger.addEventListener("click", () => {
 
   sections.forEach(section => {
     section.classList.toggle("active");
+    popUp.classList.toggle("active");
   });
 });
 
