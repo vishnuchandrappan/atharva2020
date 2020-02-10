@@ -8,5 +8,10 @@ const data = [
     name: "Exourtia",
     image: "https://picsum.photos/200/300",
     description: "Lorm ipsum 2"
+  },
+  {
+    name: "Exourtia",
+    image: "https://picsum.photos/200/300",
+    description: "Lorm ipsum 2"
   }
 ];

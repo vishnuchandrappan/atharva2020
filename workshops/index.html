@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="theme-color" content="#0e0d0d">
+    <meta name="theme-color" content="#0e0d0d" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Workshops | Atharva</title>
     <link rel="stylesheet" href="../styles/main.css" />
@@ -22,6 +22,11 @@
         <div class="nav-links">
           <span>
             <a href="../"> Home <i class="fa fa-home"></i> </a>
+          </span>
+          <span>
+            <a href="../departments">
+              Departments <i class="fa fa-facebook"></i>
+            </a>
           </span>
           <span>
             <a href="../events"> Events <i class="fa fa-microchip"></i> </a>
@@ -50,12 +55,57 @@
         </a>
       </div>
     </section>
+
+    <section id="content-page">
+      <div class="card-container"></div>
+    </section>
+
+    <div class="pop-up">
+      <div class="menu">
+        <i class="fa fa-times"></i>
+      </div>
+      <div class="pop-up-body">
+        <div class="contents">
+          <div class="details">
+            <img
+              id="pop-up-image"
+              src="../images/logo-dark.jpg"
+              class="popup-image"
+            />
+            <div class="description">
+              <h3 id="pop-up-name">Event Name</h3>
+              <h4 id="pop-up-prize">Rs 2000</h4>
+              <h4>
+                Registration: Rs <span id="pop-up-registration">100</span>
+              </h4>
+            </div>
+          </div>
+          <p id="pop-up-rules"></p>
+          <div class="pop-up-navigation">
+            <div id="left">
+              <i style="display: block;" class="fa fa-chevron-left"></i>
+            </div>
+            <div id="right">
+              <i style="display: block;" class="fa fa-chevron-right"></i>
+            </div>
+          </div>
+        </div>
+        <div class="contact">
+          <h3>John Doe : 987654321</h3>
+          <h3>Jane Doe : 987654321</h3>
+        </div>
+      </div>
+    </div>
+
     <section class="loading">
       <div class="outer circle">
         <div class="inner circle"></div>
       </div>
     </section>
+
     <script src="../scripts/loader.js"></script>
+    <script src="../scripts/workshops.js"></script>
+    <!-- document specific file -->
     <script src="../scripts/app.js"></script>
   </body>
 </html>

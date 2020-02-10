@@ -44,6 +44,8 @@ const popUpPrize = document.getElementById("pop-up-prize");
 const popUpImage = document.getElementById("pop-up-image");
 const popUpRegistration = document.getElementById("pop-up-registration");
 const popUpRules = document.getElementById("pop-up-rules");
+const popUpNum1 = document.getElementById("pop-up-number1");
+const popUpNum2 = document.getElementById("pop-up-number2");
 
 closeBtn.addEventListener("click", () => {
   popUp.style.display = "none";
@@ -70,6 +72,8 @@ function setData() {
   popUpRules.innerText = a[0].description;
   popUpPrize.innerText = a[0].prize;
   popUpRegistration.innerText = a[0].registration;
+  popUpNum1.innerText = a[0].number1;
+  popUpNum2.innerText = a[0].number2;
 
   popUp.style.display = "block";
 }
