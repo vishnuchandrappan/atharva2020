@@ -5,12 +5,22 @@ const data = [
     description: "Department of Computer Science & Engineering"
   },
   {
-    name: "Exourtia",
+    name: "Exousia",
     image: "https://picsum.photos/200/300",
     description: "Lorm ipsum 2"
   },
   {
-    name: "Exourtia",
+    name: "Mexurge",
+    image: "https://picsum.photos/200/300",
+    description: "Lorm ipsum 2"
+  },
+  {
+    name: "Analekta",
+    image: "https://picsum.photos/200/300",
+    description: "Lorm ipsum 2"
+  },
+  {
+    name: "Tranquillum",
     image: "https://picsum.photos/200/300",
     description: "Lorm ipsum 2"
   }
