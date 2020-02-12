@@ -24,7 +24,9 @@
             <a href="../../"> Home <i class="fa fa-home"></i> </a>
           </span>
           <span>
-            <a href="../../departments"> Departments <i class="fa fa-home"></i> </a>
+            <a href="../../departments">
+              Departments <i class="fa fa-home"></i>
+            </a>
           </span>
           <span>
             <a href="../../events"> Events <i class="fa fa-microchip"></i> </a>
@@ -33,7 +35,9 @@
             <a href="../../workshops"> Workshops <i class="fa fa-cogs"></i> </a>
           </span>
           <span>
-            <a href="../../contactUs"> Contact Us <i class="fa fa-phone"></i> </a>
+            <a href="../../contactUs">
+              Contact Us <i class="fa fa-phone"></i>
+            </a>
           </span>
         </div>
       </nav>
@@ -54,17 +58,13 @@
       </div>
     </section>
 
-
     <!-- page content starts -->
 
     <section id="content-page">
       <div class="card-container"></div>
     </section>
 
-
     <!-- page content ends -->
-
-
 
     <section class="loading">
       <div class="outer circle">
@@ -72,7 +72,15 @@
       </div>
     </section>
     <script src="../../scripts/loader.js"></script>
-    <script src="../../scripts/civil.js"></script>
+    <script src="../../scripts/events.js"></script>
+
+    <!-- selecting department specific events -->
+    <script>
+      data = data.filter(obj => {
+        return obj.department === "CE";
+      });
+    </script>
+
     <script src="../../scripts/app.js"></script>
   </body>
 </html>
