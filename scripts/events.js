@@ -1,18 +1,19 @@
 let data = [
   {
     id: 1,
-    name: "Event 1",
+    name: "GAMING",
     department: "CSEIT",
     image: "https://picsum.photos/200/300",
     description: "Lorm ipsum 1",
     prize: "First : Rs. 2000",
     registration: "100",
-    number1: "Akhil 123456878",
-    number2: "Name 112255448"
+    number1: "Siva Prasad 123456878",
+    number2: "Thomas Joy 112255448",
+    number3: "Jibin Jose Thomas 112255448"
   },
   {
     id: 2,
-    name: "Event 2",
+    name: "",
     department: "EC",
     image: "https://picsum.photos/200/300",
     description: "Lorm ipsum 2",
@@ -58,6 +59,72 @@ let data = [
     id: 6,
     name: "Event 6",
     department: "EEE",
+    image: "https://picsum.photos/200/300",
+    description: "Lorm ipsum 6",
+    prize: "First : Rs. 2000",
+    registration: "100",
+    number1: "123456878",
+    number2: "112255448"
+  },
+  {
+    id: 7,
+    name: "Event 7",
+    department: "MECH",
+    image: "https://picsum.photos/200/300",
+    description: "Lorm ipsum 6",
+    prize: "First : Rs. 2000",
+    registration: "100",
+    number1: "123456878",
+    number2: "112255448"
+  },
+  {
+    id: 8,
+    name: "Event 8",
+    department: "MECH",
+    image: "https://picsum.photos/200/300",
+    description: "Lorm ipsum 6",
+    prize: "First : Rs. 2000",
+    registration: "100",
+    number1: "123456878",
+    number2: "112255448"
+  },
+  {
+    id: 9,
+    name: "Event 9",
+    department: "MECH",
+    image: "https://picsum.photos/200/300",
+    description: "Lorm ipsum 6",
+    prize: "First : Rs. 2000",
+    registration: "100",
+    number1: "123456878",
+    number2: "112255448"
+  },
+  {
+    id: 10,
+    name: "Event 10",
+    department: "MECH",
+    image: "https://picsum.photos/200/300",
+    description: "Lorm ipsum 6",
+    prize: "First : Rs. 2000",
+    registration: "100",
+    number1: "123456878",
+    number2: "112255448"
+  },
+  {
+    id: 11,
+    name: "Event 11",
+    department: "MECH",
+    image: "https://picsum.photos/200/300",
+    description: "Lorm ipsum 6",
+    prize: "First : Rs. 2000",
+    registration: "100",
+    number1: "123456878",
+    number2: "112255448"
+  },
+  {
+    id: 12,
+    name: "Event 12",
+    department: "MECH",
     image: "https://picsum.photos/200/300",
     description: "Lorm ipsum 6",
     prize: "First : Rs. 2000",
