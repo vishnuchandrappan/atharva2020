@@ -5,6 +5,7 @@ window.onload = function() {
     setTimeout(() => {
         loading.style.display="none";
     }, 600);
+    animate();
 };
 
 // const links = document.querySelectorAll(".nav-links span a");

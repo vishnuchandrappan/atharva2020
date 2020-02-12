@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Bebas+Neue&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Bebas+Neue|Poppins&display=swap");
 @import url("https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
 * {
   margin: 0;
@@ -48,7 +48,7 @@ header nav .nav-links span {
   margin: 0 10px;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1024px) {
   header nav {
     max-width: 75%;
   }
@@ -975,5 +975,16 @@ section {
   .content h1 {
     font-size: 1rem !important;
   }
+}
+
+footer {
+  color: lavenderblush;
+  text-align: center;
+  padding: 50px;
+  font-family: "Poppins", sans-serif;
+}
+
+footer div {
+  letter-spacing: 8px;
 }
 /*# sourceMappingURL=main.css.map */

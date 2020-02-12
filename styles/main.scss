@@ -207,6 +207,7 @@ section {
   display: flex;
   justify-content: center;
   align-items: center;
+  // display: none;
   .circle {
     border: 3px solid;
     padding: 4px;
@@ -404,5 +405,16 @@ section {
     h1 {
       font-size: 1rem !important;
     }
+  }
+}
+
+
+footer{
+  color:lavenderblush;
+  text-align: center;
+  padding: 50px;
+  font-family: $font_2;
+  div{
+    letter-spacing: 8px;
   }
 }
