@@ -13,30 +13,30 @@ let data = [
   },
   {
     id: 2,
-    name: "",
-    department: "EC",
+    name: "3'S FOOTBALL",
+    department: "CSEIT",
     image: "https://picsum.photos/200/300",
     description: "Lorm ipsum 2",
     prize: "First : Rs. 2000, Second: Rs. 1000",
     registration: "150",
-    number1: "12309876",
-    number2: "112255448"
+    number1: "Abdul Muneer 12309876",
+    number2: "Antony Augustine 112255448"
   },
   {
     id: 3,
-    name: "Event 3_edited",
-    department: "CE",
+    name: "Workshop",
+    department: "CSEIT",
     image: "https://picsum.photos/200/300",
     description: "Lorm ipsum 3",
     prize: "First : Rs. 2000",
     registration: "300",
-    number1: "123456878",
-    number2: "112255448"
+    number1: "Anoj 123456878",
+    number2: "Amy 112255448"
   },
   {
     id: 4,
-    name: "Event 4",
-    department: "CE",
+    name: "Debugging",
+    department: "CSEIT",
     image: "https://picsum.photos/200/300",
     description: "Lorm ipsum 4",
     prize: "First : Rs. 2000",
@@ -46,8 +46,8 @@ let data = [
   },
   {
     id: 5,
-    name: "Event 5",
-    department: "EEE",
+    name: "Code Monk",
+    department: "CSEIT",
     image: "https://picsum.photos/200/300",
     description: "Lorm ipsum 5",
     prize: "First : Rs. 2000",
@@ -57,8 +57,8 @@ let data = [
   },
   {
     id: 6,
-    name: "Event 6",
-    department: "EEE",
+    name: "Idea Presentation",
+    department: "CSEIT",
     image: "https://picsum.photos/200/300",
     description: "Lorm ipsum 6",
     prize: "First : Rs. 2000",
@@ -68,8 +68,8 @@ let data = [
   },
   {
     id: 7,
-    name: "Event 7",
-    department: "MECH",
+    name: "Googler",
+    department: "CSEIT",
     image: "https://picsum.photos/200/300",
     description: "Lorm ipsum 6",
     prize: "First : Rs. 2000",
@@ -79,8 +79,8 @@ let data = [
   },
   {
     id: 8,
-    name: "Event 8",
-    department: "MECH",
+    name: "Scrambled Keyboard",
+    department: "CSEIT",
     image: "https://picsum.photos/200/300",
     description: "Lorm ipsum 6",
     prize: "First : Rs. 2000",
@@ -90,8 +90,8 @@ let data = [
   },
   {
     id: 9,
-    name: "Event 9",
-    department: "MECH",
+    name: "Speed Coding",
+    department: "CSEIT",
     image: "https://picsum.photos/200/300",
     description: "Lorm ipsum 6",
     prize: "First : Rs. 2000",
@@ -101,8 +101,8 @@ let data = [
   },
   {
     id: 10,
-    name: "Event 10",
-    department: "MECH",
+    name: "Blind coding",
+    department: "CSEIT",
     image: "https://picsum.photos/200/300",
     description: "Lorm ipsum 6",
     prize: "First : Rs. 2000",
@@ -112,8 +112,8 @@ let data = [
   },
   {
     id: 11,
-    name: "Event 11",
-    department: "MECH",
+    name: "Relay Coding",
+    department: "CSEIT",
     image: "https://picsum.photos/200/300",
     description: "Lorm ipsum 6",
     prize: "First : Rs. 2000",
@@ -123,13 +123,57 @@ let data = [
   },
   {
     id: 12,
-    name: "Event 12",
-    department: "MECH",
+    name: "PC Assembly",
+    department: "CSEIT",
     image: "https://picsum.photos/200/300",
     description: "Lorm ipsum 6",
     prize: "First : Rs. 2000",
     registration: "100",
     number1: "123456878",
     number2: "112255448"
-  }
+  },
+  {
+    id: 13,
+    name: "Quiz",
+    department: "CE",
+    image: "https://picsum.photos/200/300",
+    description: "Lorm ipsum 6",
+    prize: "First : Rs. 2000",
+    registration: "100",
+    number1: "123456878",
+    number2: "112255448"
+  },
+  {
+    id: 14,
+    name: "Spot photography",
+    department: "EEE",
+    image: "https://picsum.photos/200/300",
+    description: "Lorm ipsum 6",
+    prize: "First : Rs. 2000",
+    registration: "100",
+    number1: "123456878",
+    number2: "112255448"
+  },
+  {
+    id: 15,
+    name: "Learning stations",
+    department: "EEE",
+    image: "https://picsum.photos/200/300",
+    description: "Lorm ipsum 6",
+    prize: "First : Rs. 2000",
+    registration: "100",
+    number1: "123456878",
+    number2: "112255448"
+  },
+  {
+    id: 16,
+    name: "Learning stations",
+    department: "ME",
+    image: "https://picsum.photos/200/300",
+    description: "Lorm ipsum 6",
+    prize: "First : Rs. 2000",
+    registration: "100",
+    number1: "123456878",
+    number2: "112255448"
+  },
 ];

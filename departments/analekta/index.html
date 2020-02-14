@@ -5,48 +5,47 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="theme-color" content="#0e0d0d" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Workshops | Atharva</title>
-    <link rel="stylesheet" href="../styles/main.css" />
+    <title>Analekta | Atharva</title>
+    <link rel="stylesheet" href="../../styles/main.css" />
   </head>
   <body>
     <header>
       <nav>
         <div class="nav-logo">
-          <img src="../images/nav-logo.jpg" alt="Atharva" />
+          <img src="../../images/nav-logo.jpg" alt="Atharva" />
         </div>
-        <div class="burger">  
+        <div class="burger">
           <span></span>
           <span></span>
           <span></span>
         </div>
         <div class="nav-links">
           <span>
-            <a href="../"> Home <i class="fa fa-home"></i> </a>
+            <a href="../../"> Home <i class="fa fa-home"></i> </a>
           </span>
           <span>
-            <a href="../departments"> Departments <i class="fa fa-facebook"></i>
-            </a>
+            <a href="../../departments"> Departments <i class="fa fa-home"></i> </a>
           </span>
           <span>
-            <a href="../events"> Events <i class="fa fa-microchip"></i> </a>
+            <a href="../../events"> Events <i class="fa fa-microchip"></i> </a>
           </span>
           <span>
-            <a href="../workshops"> Workshops <i class="fa fa-cogs"></i> </a>
+            <a href="../../workshops"> Workshops <i class="fa fa-cogs"></i> </a>
           </span>
           <span>
-            <a href="../contactUs"> Contact Us <i class="fa fa-phone"></i> </a>
+            <a href="../../contactUs"> Contact Us <i class="fa fa-phone"></i> </a>
           </span>
         </div>
       </nav>
     </header>
     <main>
       <div class="hero">
-        <img src="../images/logo-light.jpg" alt="Atharva 2020" />
+        <img src="../../images/logo-light.jpg" alt="Atharva 2020" />
       </div>
     </main>
     <section class="face">
       <div class="title-container">
-        <h1>Workshops</h1>
+        <h1>Analekta</h1>
       </div>
       <div class="down-arrow">
         <a href="#content-page">
@@ -55,45 +54,12 @@
       </div>
     </section>
 
+
+    <!-- page content starts -->
+
     <section id="content-page">
       <div class="card-container"></div>
     </section>
-
-    <div class="pop-up">
-      <div class="menu">
-        <i class="fa fa-times"></i>
-      </div>
-      <div class="pop-up-body">
-        <div class="contents">
-          <div class="details">
-            <img
-              id="pop-up-image"
-              src="../images/logo-dark.jpg"
-              class="popup-image"
-            />
-            <div class="description">
-              <h3 id="pop-up-name">Event Name</h3>
-              <h4>
-                Registration: Rs <span id="pop-up-registration">100</span>
-              </h4>
-            </div>
-          </div>
-          <p id="pop-up-rules"></p>
-          <div class="pop-up-navigation">
-            <div id="left">
-              <i style="display: block;" class="fa fa-chevron-left"></i>
-            </div>
-            <div id="right">
-              <i style="display: block;" class="fa fa-chevron-right"></i>
-            </div>
-          </div>
-        </div>
-        <div class="contact">
-          <h3>John Doe : 987654321</h3>
-          <h3>Jane Doe : 987654321</h3>
-        </div>
-      </div>
-    </div>
     <div class="pop-up">
       <div class="menu">
         <i class="fa fa-times"></i>
@@ -131,6 +97,7 @@
         </div>
       </div>
     </div>
+
     <footer>
       &copy; &nbsp; 2020 atharvacemp. All Rights Reserved.
       <div>Made with ❤️ By
@@ -138,15 +105,29 @@
       </div>
     </footer>
 
+
+
+    <!-- page content ends -->
+
+
+
     <section class="loading">
       <div class="outer circle">
         <div class="inner circle"></div>
       </div>
     </section>
+    <script src="../../scripts/loader.js"></script>
+    <script src="../../scripts/events.js"></script>
 
-    <script src="../scripts/loader.js"></script>
-    <script src="../scripts/workshops.js"></script>
-    <!-- document specific file -->
-    <script src="../scripts/app.js"></script>
+
+    <!-- selecting department specific events -->
+    <script>
+        data = data.filter(obj => {
+            return obj.department === "CSEIT";
+        });
+    </script>
+
+
+    <script src="../../scripts/app.js"></script>
   </body>
 </html>

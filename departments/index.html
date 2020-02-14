@@ -1,78 +1,181 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="theme-color" content="#0e0d0d" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Departments | Atharva</title>
-    <link rel="stylesheet" href="../styles/main.css" />
-  </head>
-  <body>
-    <header>
-      <nav>
-        <div class="nav-logo">
-          <img src="../images/nav-logo.jpg" alt="Atharva" />
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#0e0d0d" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>Departments | Atharva</title>
+  <link rel="stylesheet" href="../styles/main.css" />
+</head>
+
+<body>
+  <header>
+    <nav>
+      <div class="nav-logo">
+        <img src="../images/nav-logo.jpg" alt="Atharva" />
+      </div>
+      <div class="burger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      <div class="nav-links">
+        <span>
+          <a href="../"> Home <i class="fa fa-home"></i> </a>
+        </span>
+        <span>
+          <a href="../departments"> Departments <i class="fa fa-home"></i> </a>
+        </span>
+        <span>
+          <a href="../events"> Events <i class="fa fa-microchip"></i> </a>
+        </span>
+        <span>
+          <a href="../workshops"> Workshops <i class="fa fa-cogs"></i> </a>
+        </span>
+        <span>
+          <a href="../contactUs"> Contact Us <i class="fa fa-phone"></i> </a>
+        </span>
+      </div>
+    </nav>
+  </header>
+  <main>
+    <div class="hero">
+      <img src="../images/logo-light.jpg" alt="Atharva 2020" />
+    </div>
+  </main>
+  <div class="pop-up">
+    <div class="menu">
+      <i class="fa fa-times"></i>
+    </div>
+    <div class="pop-up-body">
+      <div class="contents">
+        <div class="details">
+          <img id="pop-up-image" src="../images/logo-dark.jpg" class="popup-image" />
+          <div class="description">
+            <h3 id="pop-up-name">Event Name</h3>
+            <h4 id="pop-up-prize">Rs 2000</h4>
+            <h4>
+              Registration: Rs <span id="pop-up-registration">100</span>
+            </h4>
+          </div>
         </div>
-        <div class="burger">
-          <span></span>
-          <span></span>
-          <span></span>
+        <p id="pop-up-rules">
+        </p>
+        <div class="pop-up-navigation">
+          <div id="left">
+            <i style="display: block;" class="fa fa-chevron-left"></i>
+          </div>
+          <div id="right">
+            <i style="display: block;" class="fa fa-chevron-right"></i>
+          </div>
         </div>
-        <div class="nav-links">
-          <span>
-            <a href="../"> Home <i class="fa fa-home"></i> </a>
-          </span>
-          <span>
-            <a href="../departments"> Departments <i class="fa fa-home"></i> </a>
-          </span>
-          <span>
-            <a href="../events"> Events <i class="fa fa-microchip"></i> </a>
-          </span>
-          <span>
-            <a href="../workshops"> Workshops <i class="fa fa-cogs"></i> </a>
-          </span>
-          <span>
-            <a href="../contactUs"> Contact Us <i class="fa fa-phone"></i> </a>
-          </span>
+      </div>
+      <div class="contact">
+        <h3 id="pop-up-number1">John Doe : 987654321</h3 id="pop-up-number1">
+        <h3 id="pop-up-number2">Jane Doe : 987654321</h3>
+      </div>
+    </div>
+  </div>
+
+  <section class="face">
+    <div class="title-container">
+      <h1>Departments</h1>
+    </div>
+    <div class="down-arrow">
+      <a href="#content-page">
+        <i class="fa fa-chevron-down"></i>
+      </a>
+    </div>
+  </section>
+
+
+  <!-- page content starts -->
+
+  <section id="content-page">
+    <div class="card-container">
+      <a href="./technaura/" class="card" id="1">
+        <img src="https://picsum.photos/200/300" class="card-img">
+        <h3 class="card-title">Technaura</h3>
+        <p class="card-content">Association of CSE & IT </p>
+      </a>
+      <a href="./tranquillum/" class="card" id="2"><img src="https://picsum.photos/200/300" class="card-img">
+        <h3 class="card-title">Tranquillum</h3>
+        <p class="card-content">Association of CE</p>
+      </a>
+      <a href="./exousia/" class="card" id="3"><img src="https://picsum.photos/200/300" class="card-img">
+        <h3 class="card-title">Exousia</h3>
+        <p class="card-content">Association of EEE</p>
+      </a>
+      <a href="./mexurge/" class="card" id="4"><img src="https://picsum.photos/200/300" class="card-img">
+        <h3 class="card-title">Mexurge</h3>
+        <p class="card-content">Association of ME</p>
+      </a>
+      <a href="./analekta/" class="card" id="5"><img src="https://picsum.photos/200/300" class="card-img">
+        <h3 class="card-title">analekta</h3>
+        <p class="card-content">Association of EC</p>
+      </div>
+      <div class="card" id="6"><img src="https://picsum.photos/200/300" class="card-img">
+        <h3 class="card-title">Workshop 6</h3>
+        <p class="card-content">Lorm ipsum 6</p>
+      </div>
+    </div>
+  </section>
+
+  <div class="pop-up">
+    <div class="menu">
+      <i class="fa fa-times"></i>
+    </div>
+    <div class="pop-up-body">
+      <div class="contents">
+        <div class="details">
+          <img id="pop-up-image" src="../images/logo-dark.jpg" class="popup-image" />
+          <div class="description">
+            <h3 id="pop-up-name">Event Name</h3>
+            <h4 id="pop-up-prize">Rs 2000</h4>
+            <h4>
+              Registration: Rs <span id="pop-up-registration">100</span>
+            </h4>
+          </div>
         </div>
-      </nav>
-    </header>
-    <main>
-      <div class="hero">
-        <img src="../images/logo-light.jpg" alt="Atharva 2020" />
+        <p id="pop-up-rules">
+        </p>
+        <div class="pop-up-navigation">
+          <div id="left">
+            <i style="display: block;" class="fa fa-chevron-left"></i>
+          </div>
+          <div id="right">
+            <i style="display: block;" class="fa fa-chevron-right"></i>
+          </div>
+        </div>
       </div>
-    </main>
-    <section class="face">
-      <div class="title-container">
-        <h1>Departments</h1>
+      <div class="contact">
+        <h3 id="pop-up-number1">John Doe : 987654321</h3 id="pop-up-number1">
+        <h3 id="pop-up-number2">Jane Doe : 987654321</h3>
       </div>
-      <div class="down-arrow">
-        <a href="#content-page">
-          <i class="fa fa-chevron-down"></i>
-        </a>
-      </div>
-    </section>
+    </div>
+  </div>
+  <footer>
+    &copy; &nbsp; 2020 atharvacemp. All Rights Reserved.
+    <div>Made with ❤️ By
+      <a id="studevs" href="https://github.com/vishnuchandrappan/atharva2020">STUDEVS</a>
+    </div>
+  </footer>
 
 
-    <!-- page content starts -->
-
-    <section id="content-page">
-      <div class="card-container"></div>
-    </section>
-
-
-    <!-- page content ends -->
+  <!-- page content ends -->
 
 
 
-    <section class="loading">
-      <div class="outer circle">
-        <div class="inner circle"></div>
-      </div>
-    </section>
-    <script src="../scripts/loader.js"></script>
-    <script src="../scripts/departments.js"></script>
-    <script src="../scripts/app.js"></script>
-  </body>
+  <section class="loading">
+    <div class="outer circle">
+      <div class="inner circle"></div>
+    </div>
+  </section>
+  <script src="../scripts/loader.js"></script>
+  <!-- <script src="../scripts/departments.js"></script> -->
+  <script src="../scripts/app.js"></script>
+</body>
+
 </html>

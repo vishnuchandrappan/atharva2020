@@ -18,7 +18,7 @@ const data = [
   {
     id: 3,
     image: "https://picsum.photos/200/300",
-    name: "Workshop 3_edited",
+    name: "Workshop 3",
     description: "Lorm ipsum 3",
     prize: "First : Rs. 2000",
     registration: "300"
