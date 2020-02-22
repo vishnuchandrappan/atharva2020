@@ -14,6 +14,23 @@ burger.addEventListener("click", () => {
 
 const container = document.querySelector(".card-container");
 
+function setDeptName(code) {
+  switch (code) {
+    case "MECH":
+      return "MEXURGE";
+    case "CSEIT":
+      return "TECHNAURA";
+    case "EC":
+      return "EXOUSIA";
+    case "CE":
+      return "TRANQUILLUM";
+    case "EEE":
+      return "ANALETA";
+    default:
+      break;
+  }
+}
+
 data.forEach(item => {
   let el = document.createElement("div");
   el.classList.add("card");
@@ -21,6 +38,11 @@ data.forEach(item => {
   let image = document.createElement("img");
   image.setAttribute("src", item.image);
   image.classList.add("card-img");
+  if (showDeptName === 1) {
+    var deptName = document.createElement("h2");
+    deptName.classList.add("dept-name");
+    deptName.innerText = setDeptName(item.department);
+  }
   let name = document.createElement("h3");
   name.innerText = item.name;
   name.classList.add("card-title");
@@ -29,6 +51,9 @@ data.forEach(item => {
   description.innerText = item.description;
 
   el.appendChild(image);
+  if (showDeptName === 1) {
+    el.appendChild(deptName);
+  }
   el.appendChild(name);
   el.appendChild(description);
 
@@ -82,14 +107,14 @@ const leftBtn = document.getElementById("left");
 const rightBtn = document.getElementById("right");
 
 leftBtn.addEventListener("click", () => {
-  if(currentCard!=data[0].id){
+  if (currentCard != data[0].id) {
     currentCard--;
     setData();
   }
 });
 
 rightBtn.addEventListener("click", () => {
-  if(currentCard!=data.length){
+  if (currentCard != data.length) {
     currentCard++;
     setData();
   }
