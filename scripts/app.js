@@ -24,11 +24,11 @@ function setDeptName(code) {
     case "CSEIT":
       return "TECHNAURA";
     case "EC":
-      return "EXOUSIA";
+      return "HOXOVO";
     case "CE":
       return "TRANQUILLUM";
     case "EEE":
-      return "ANALETA";
+      return "EXOUSIA";
     default:
       break;
   }
