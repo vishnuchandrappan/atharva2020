@@ -62,7 +62,7 @@ data.forEach(item => {
   init();
 });
 
-const closeBtn = document.querySelector(".fa-times");
+const closeBtn = document.querySelector(".fa-times").parentElement;
 const popUp = document.querySelector(".pop-up");
 const itemName = document.getElementById("pop-up-name");
 const popUpPrize = document.getElementById("pop-up-prize");
