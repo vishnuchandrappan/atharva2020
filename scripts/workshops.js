@@ -1,4 +1,5 @@
-let workshops = [
+//please note : ID for workshop should be given from 1000
+var workshops = [
   {
     id: 1000,
     name: "Workshop 1",

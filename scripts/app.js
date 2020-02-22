@@ -160,3 +160,16 @@ rightBtn.addEventListener("click", () => {
     setData();
   }
 });
+
+const slideBtn = document.getElementById('slide-btn');
+const navMenu = document.querySelector('.nav-menu');
+slideBtn.addEventListener("click", () => {
+  navMenu.classList.toggle("nav-menu-active");
+});
+
+const menuLinks = document.querySelectorAll('.menu-links');
+menuLinks.forEach(link => {
+  link.addEventListener("click", () => {
+    navMenu.classList.remove("nav-menu-active");
+  });
+});

@@ -1014,4 +1014,114 @@ footer {
 footer div {
   letter-spacing: 8px;
 }
+
+.nav-menu {
+  position: fixed;
+  top: 50vh;
+  right: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: stretch;
+      -ms-flex-pack: stretch;
+          justify-content: stretch;
+  background-color: crimson;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-transform: translateX(100px);
+          transform: translateX(100px);
+}
+
+.nav-menu div {
+  padding: 10px;
+}
+
+.nav-menu .fa {
+  margin: 0;
+}
+
+.nav-menu #slide-btn {
+  text-align: left;
+}
+
+.nav-menu .menu-contents {
+  width: 100px;
+  max-width: 100px;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.nav-menu .menu-contents a {
+  padding: 5px 0;
+}
+
+.nav-menu-active {
+  -webkit-transform: translateX(0);
+          transform: translateX(0);
+}
+
+.nav-menu-active .fa {
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
+}
+
+@media screen and (min-width: 768px) {
+  .nav-menu {
+    position: fixed;
+    top: 50vh;
+    right: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: stretch;
+        -ms-flex-pack: stretch;
+            justify-content: stretch;
+    background-color: crimson;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-transform: translateX(100px);
+            transform: translateX(100px);
+  }
+  .nav-menu .fa {
+    display: block;
+  }
+  .nav-menu div {
+    padding: 10px;
+  }
+  .nav-menu .fa {
+    margin: 0;
+  }
+  .nav-menu #slide-btn {
+    text-align: left;
+  }
+  .nav-menu .menu-contents {
+    width: 100px;
+    max-width: 100px;
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .nav-menu .menu-contents a {
+    padding: 5px 0;
+  }
+  .nav-menu-active {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+  }
+  .nav-menu-active .fa {
+    -webkit-transform: rotate(180deg);
+            transform: rotate(180deg);
+  }
+}
 /*# sourceMappingURL=main.css.map */
