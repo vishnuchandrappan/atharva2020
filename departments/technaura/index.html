@@ -61,6 +61,7 @@
     <!-- events starts -->
 
     <section id="content-page">
+      <h1>Events</h1>
       <div class="card-container"></div>
     </section>
 
@@ -69,6 +70,7 @@
     <!-- workshops starts -->
 
     <section id="workshop-page">
+      <h1>Workshops</h1>
       <div class="card-container"></div >
     </section>
 
@@ -134,15 +136,19 @@
     <script src="../../scripts/events.js"></script>
 
     <!-- selecting department specific events -->
-    <script>
-      data = data.filter(obj => {
-        return obj.department === "CSEIT";
-      });
-    </script>
 
 
     <script src="../../scripts/workshops.js"></script>
 
+    <script>
+      data = data.filter(obj => {
+        return obj.department === "CSEIT";
+      });
+      workshops = workshops.filter(obj => {
+        return obj.department === "CSEIT";
+      });
+
+    </script>
 
         <!-- selecting department specific events -->
     <script>

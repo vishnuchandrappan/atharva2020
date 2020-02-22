@@ -743,7 +743,8 @@ section {
   }
 }
 
-#content-page {
+#content-page,
+#workshop-page {
   width: 100vw;
   min-height: 75vh;
   color: lavenderblush;

@@ -1,56 +1,62 @@
-const data = [
+let workshops = [
   {
-    id: 1,
+    id: 1000,
     name: "Workshop 1",
     department: "CSEIT",
     image: "https://picsum.photos/200/300",
     description: "Lorm ipsum 1",
-    prize: "First : Rs. 2000",
-    registration: "100"
+    registration: "100",
+    number1: "Person1 1231231",
+    number2: "Person2 1231232",
   },
   {
-    id: 2,
+    id: 1001,
     name: "Workshop 2",
     department: "EC",
     image: "https://picsum.photos/200/300",
     description: "Lorm ipsum 2",
-    prize: "First : Rs. 2000, Second: Rs. 1000",
-    registration: "150"
+    registration: "150",
+    number1: "Person1 1231231",
+    number2: "Person2 1231232",
   },
   {
-    id: 3,
+    id: 1002,
     name: "Workshop 3_edited",
     department: "EEE",
     image: "https://picsum.photos/200/300",
     description: "Lorm ipsum 3",
-    prize: "First : Rs. 2000",
-    registration: "300"
+    registration: "300",
+    number1: "Person1 1231231",
+    number2: "Person2 1231232",
   },
   {
-    id: 4,
+    id: 1003,
     name: "Workshop 4",
-    department: "ME",
+    department: "MECH",
     image: "https://picsum.photos/200/300",
     description: "Lorm ipsum 4",
-    prize: "First : Rs. 2000",
-    registration: "100"
+    registration: "100",
+    number1: "Person1 1231231",
+    number2: "Person2 1231232",
   },
   {
-    id: 5,
+    id: 1004,
     name: "Workshop 5",
-    department: "EC",
+    department: "CE",
     image: "https://picsum.photos/200/300",
     description: "Lorm ipsum 5",
-    prize: "First : Rs. 2000",
-    registration: "100"
+    registration: "100",
+    number1: "Person1 1231231",
+    number2: "Person2 1231232",
   },
   {
-    id: 6,
+    id: 1005,
     name: "Workshop 6",
     department: "CSEIT",
     image: "https://picsum.photos/200/300",
     description: "Lorm ipsum 6",
-    prize: "First : Rs. 2000",
-    registration: "100"
+    registration: "100",
+    number1: "Person1 1231231",
+    number2: "Person2 1231232",
   }
 ];
