@@ -36,6 +36,7 @@ let data = [
   {
     id: 4,
     name: "Debugging",
+    name: "Event 4",
     department: "CSEIT",
     image: "https://picsum.photos/200/300",
     description: "Lorm ipsum 4",

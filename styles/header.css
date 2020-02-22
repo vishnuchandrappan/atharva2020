@@ -7,6 +7,19 @@ header {
   z-index: 10;
 }
 
+header a {
+  color: inherit;
+  text-decoration: none;
+}
+
+header a:hover {
+  text-decoration: none;
+  color: inherit;
+  display: inline-block;
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
+
 header nav {
   display: -webkit-box;
   display: -ms-flexbox;
