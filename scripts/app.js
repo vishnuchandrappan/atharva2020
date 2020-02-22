@@ -123,12 +123,11 @@ function init() {
 }
 
 function setData() {
-  if(currentCard>=1000){
+  if (currentCard >= 1000) {
     var a = workshops.filter(obj => {
       return obj.id === currentCard;
     });
-  }
-  else{
+  } else {
     var a = data.filter(obj => {
       return obj.id === currentCard;
     });
@@ -161,13 +160,13 @@ rightBtn.addEventListener("click", () => {
   }
 });
 
-const slideBtn = document.getElementById('slide-btn').parentElement;
-const navMenu = document.querySelector('.nav-menu');
+const slideBtn = document.getElementById("slide-btn");
+const navMenu = document.querySelector(".nav-menu");
 slideBtn.addEventListener("click", () => {
   navMenu.classList.toggle("nav-menu-active");
 });
 
-const menuLinks = document.querySelectorAll('.menu-links');
+const menuLinks = document.querySelectorAll(".menu-links");
 menuLinks.forEach(link => {
   link.addEventListener("click", () => {
     navMenu.classList.remove("nav-menu-active");
