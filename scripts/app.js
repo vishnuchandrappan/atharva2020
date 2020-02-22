@@ -161,7 +161,7 @@ rightBtn.addEventListener("click", () => {
   }
 });
 
-const slideBtn = document.getElementById('slide-btn');
+const slideBtn = document.getElementById('slide-btn').parentElement;
 const navMenu = document.querySelector('.nav-menu');
 slideBtn.addEventListener("click", () => {
   navMenu.classList.toggle("nav-menu-active");

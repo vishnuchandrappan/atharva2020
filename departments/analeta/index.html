@@ -106,6 +106,19 @@
     </footer>
 
 
+    <section class="nav-menu">
+      <div id="slide-btn">
+        <i class="fa fa-chevron-left"></i>
+      </div>
+      <div class="menu-contents">
+        <a href="#content-page" class="menu-links">
+          Events
+        </a>
+        <a href="#workshop-page" class="menu-links">
+          Workshops
+        </a>
+      </div>
+    </section>
 
     <!-- page content ends -->
 
@@ -126,10 +139,16 @@
 
 
     <!-- selecting department specific events -->
+    <script src="../../scripts/workshops.js"></script>
+
     <script>
-        data = data.filter(obj => {
-            return obj.department === "EC";
-        });
+      data = data.filter(obj => {
+        return obj.department === "EC";
+      });
+      workshops = workshops.filter(obj => {
+        return obj.department === "EC";
+      });
+
     </script>
 
 

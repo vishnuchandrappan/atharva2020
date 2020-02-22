@@ -113,6 +113,21 @@
       </div>
     </footer>
 
+
+    <section class="nav-menu">
+      <div id="slide-btn">
+        <i class="fa fa-chevron-left"></i>
+      </div>
+      <div class="menu-contents">
+        <a href="#content-page" class="menu-links">
+          Events
+        </a>
+        <a href="#workshop-page" class="menu-links">
+          Workshops
+        </a>
+      </div>
+    </section>
+
     <section class="loading">
       <div class="outer circle">
         <div class="inner circle"></div>
@@ -127,11 +142,18 @@
     <script src="../../scripts/events.js"></script>
 
     <!-- selecting department specific events -->
+    <script src="../../scripts/workshops.js"></script>
+
     <script>
       data = data.filter(obj => {
-        return obj.department === "CE";
+        return obj.department === "CSEIT";
       });
+      workshops = workshops.filter(obj => {
+        return obj.department === "CSEIT";
+      });
+
     </script>
+
 
     <script src="../../scripts/app.js"></script>
   </body>
