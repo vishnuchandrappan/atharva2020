@@ -285,6 +285,10 @@ section {
       max-height: 300px;
       min-height: 300px;
       border-radius: 5px;
+      margin-bottom: 10px;
+    }
+    .card-img {
+      margin-bottom: 10px;
     }
     box-shadow: 0px 0px 2px;
   }
@@ -408,13 +412,12 @@ section {
   }
 }
 
-
-footer{
-  color:lavenderblush;
+footer {
+  color: lavenderblush;
   text-align: center;
   padding: 50px;
   font-family: $font_2;
-  div{
+  div {
     letter-spacing: 8px;
   }
 }
