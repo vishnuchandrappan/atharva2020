@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#0e0d0d" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>Hoxovo | Atharva</title>
+  <link rel="stylesheet" href="../../styles/main.css" />
+</head>
+
+<body>
+  <header>
+    <nav>
+      <div class="nav-logo">
+        <img src="../../images/nav-logo.jpg" alt="Atharva" />
+      </div>
+      <div class="burger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      <div class="nav-links">
+        <span>
+          <a href="../../"> Home <i class="fa fa-home"></i> </a>
+        </span>
+        <span>
+          <a href="../../departments"> Departments <i class="fa fa-home"></i> </a>
+        </span>
+        <span>
+          <a href="../../events"> Events <i class="fa fa-microchip"></i> </a>
+        </span>
+        <span>
+          <a href="../../workshops"> Workshops <i class="fa fa-cogs"></i> </a>
+        </span>
+        <span>
+          <a href="../../contactUs"> Contact Us <i class="fa fa-phone"></i> </a>
+        </span>
+      </div>
+    </nav>
+  </header>
+  <main>
+    <div class="hero">
+      <img src="../../images/logo-light.jpg" alt="Atharva 2020" />
+    </div>
+  </main>
+  <section class="face">
+    <div class="title-container">
+      <h1>Hoxovo</h1>
+    </div>
+    <div class="down-arrow">
+      <a href="#content-page">
+        <i class="fa fa-chevron-down"></i>
+      </a>
+    </div>
+  </section>
+
+
+  <!-- page content starts -->
+
+  <section id="content-page">
+    <h1>Events</h1>
+    <div class="card-container"></div>
+  </section>
+
+
+  <section id="workshop-page">
+    <h1>Workshops</h1>
+    <div class="card-container"></div>
+  </section>
+
+
+  <div class="pop-up">
+    <div class="menu">
+      <i class="fa fa-times"></i>
+    </div>
+    <div class="pop-up-body">
+      <div class="contents">
+        <div class="details">
+          <img id="pop-up-image" src="../images/logo-dark.jpg" class="popup-image" />
+          <div class="description">
+            <h3 id="pop-up-name">Event Name</h3>
+            <h4 id="pop-up-prize">Rs 2000</h4>
+            <h4>
+              Registration: Rs <span id="pop-up-registration">100</span>
+            </h4>
+          </div>
+        </div>
+        <p id="pop-up-rules">
+        </p>
+        <div class="pop-up-navigation">
+          <div id="left">
+            <i style="display: block;" class="fa fa-chevron-left"></i>
+          </div>
+          <div id="right">
+            <i style="display: block;" class="fa fa-chevron-right"></i>
+          </div>
+        </div>
+      </div>
+      <div class="contact">
+        <h3 id="pop-up-number1">John Doe : 987654321</h3 id="pop-up-number1">
+        <h3 id="pop-up-number2">Jane Doe : 987654321</h3>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    &copy; &nbsp; 2020 atharvacemp. All Rights Reserved.
+    <div>Made with ❤️ By
+      <a id="studevs" href="https://github.com/vishnuchandrappan/atharva2020">STUDEVS</a>
+    </div>
+  </footer>
+
+
+  <section class="nav-menu">
+    <div id="slide-btn">
+      <i class="fa fa-chevron-left"></i>
+    </div>
+    <div class="menu-contents">
+      <a href="#content-page" class="menu-links">
+        Events
+      </a>
+      <a href="#workshop-page" class="menu-links">
+        Workshops
+      </a>
+    </div>
+  </section>
+
+  <!-- page content ends -->
+
+
+
+  <section class="loading">
+    <div class="outer circle">
+      <div class="inner circle"></div>
+    </div>
+  </section>
+
+  <script>
+    var showDeptName = 0;
+  </script>
+
+  <script src="../../scripts/loader.js"></script>
+  <script src="../../scripts/events.js"></script>
+
+
+  <!-- selecting department specific events -->
+  <script src="../../scripts/workshops.js"></script>
+
+  <script>
+    data = data.filter(obj => {
+      return obj.department === "EC";
+    });
+    workshops = workshops.filter(obj => {
+      return obj.department === "EC";
+    });
+
+  </script>
+  
+  <script src="../../scripts/app.js"></script>
+</body>
+
+</html>
