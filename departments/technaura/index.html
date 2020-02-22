@@ -24,7 +24,9 @@
             <a href="../../"> Home <i class="fa fa-home"></i> </a>
           </span>
           <span>
-            <a href="../../departments"> Departments <i class="fa fa-home"></i> </a>
+            <a href="../../departments">
+              Departments <i class="fa fa-home"></i>
+            </a>
           </span>
           <span>
             <a href="../../events"> Events <i class="fa fa-microchip"></i> </a>
@@ -33,7 +35,9 @@
             <a href="../../workshops"> Workshops <i class="fa fa-cogs"></i> </a>
           </span>
           <span>
-            <a href="../../contactUs"> Contact Us <i class="fa fa-phone"></i> </a>
+            <a href="../../contactUs">
+              Contact Us <i class="fa fa-phone"></i>
+            </a>
           </span>
         </div>
       </nav>
@@ -45,7 +49,7 @@
     </main>
     <section class="face">
       <div class="title-container">
-        <h1>Tranquillum</h1>
+        <h1>Technaura</h1>
       </div>
       <div class="down-arrow">
         <a href="#content-page">
@@ -54,17 +58,21 @@
       </div>
     </section>
 
-
-    <!-- page content starts -->
+    <!-- events starts -->
 
     <section id="content-page">
       <div class="card-container"></div>
     </section>
 
+    <!-- events ends -->
 
-    <!-- page content ends -->
+    <!-- workshops starts -->
 
+    <section id="workshop-page">
+      <div class="card-container"></div >
+    </section>
 
+    <!-- workshops ends -->
 
     <section class="loading">
       <div class="outer circle">
@@ -74,13 +82,24 @@
     <script src="../../scripts/loader.js"></script>
     <script src="../../scripts/events.js"></script>
 
-
     <!-- selecting department specific events -->
     <script>
-        data = data.filter(obj => {
-            return obj.department === "CSEIT";
-        });
+      data = data.filter(obj => {
+        return obj.department === "CSEIT";
+      });
     </script>
+
+
+    <script src="../../scripts/workshops.js"></script>
+
+
+        <!-- selecting department specific events -->
+    <script>
+      data = data.filter(obj => {
+        return obj.department === "CSEIT";
+      });
+    </script>
+
 
 
     <script src="../../scripts/app.js"></script>
