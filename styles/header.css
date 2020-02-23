@@ -82,13 +82,12 @@ header nav .nav-links span {
     display: flex;
     position: fixed;
     color: lavenderblush;
-    background-color: rgba(255, 240, 245, 0.4);
+    background-color: rgba(14, 13, 13, 0.6);
     bottom: 80px;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    background-color: transparent;
     left: 0;
     width: 100vw;
     -webkit-box-align: end;
