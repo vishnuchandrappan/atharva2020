@@ -1124,4 +1124,8 @@ footer div {
             transform: rotate(180deg);
   }
 }
+
+.disabled {
+  opacity: 0.1;
+}
 /*# sourceMappingURL=main.css.map */

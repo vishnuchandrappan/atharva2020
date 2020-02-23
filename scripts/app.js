@@ -123,7 +123,7 @@ function init() {
 }
 
 function setData() {
-    currentCard = data[index].id;
+  currentCard = data[index].id;
 
   if (currentCard >= 1000) {
     var a = workshops.filter(obj => {
@@ -155,14 +155,28 @@ function setData() {
   popUpNum2.appendChild(change2);
 
   popUp.style.display = "block";
+  checkStatus();
 }
 
 const leftBtn = document.getElementById("left");
 const rightBtn = document.getElementById("right");
 var index = 0;
 
+function checkStatus() {
+  if (index == 0) {
+    leftBtn.classList.add("disabled");
+  } else {
+    leftBtn.classList.remove("disabled");
+  }
+  if (index == data.length - 1) {
+    rightBtn.classList.add("disabled");
+  } else {
+    rightBtn.classList.remove("disabled");
+  }
+}
+
 leftBtn.addEventListener("click", () => {
-  if(index != 0){
+  if (index != 0) {
     index--;
     setData();
   }
@@ -173,7 +187,7 @@ leftBtn.addEventListener("click", () => {
 });
 
 rightBtn.addEventListener("click", () => {
-  if(index != data.length-1){
+  if (index != data.length - 1) {
     index++;
     setData();
   }
