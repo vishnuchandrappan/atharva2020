@@ -1,6 +1,48 @@
 const burger = document.querySelector(".burger");
 const nav = document.querySelector(".nav-links");
 const sections = document.querySelectorAll("section");
+var index = 0;
+
+const closeBtn = document.querySelector(".fa-times").parentElement;
+const popUp = document.querySelector(".pop-up");
+const itemName = document.getElementById("pop-up-name");
+const popUpPrize = document.getElementById("pop-up-prize");
+const popUpImage = document.getElementById("pop-up-image");
+const popUpRegistration = document.getElementById("pop-up-registration");
+const popUpRules = document.getElementById("pop-up-rules");
+const popUpNum1 = document.getElementById("pop-up-number1");
+const popUpNum2 = document.getElementById("pop-up-number2");
+
+const leftBtn = document.getElementById("left");
+const rightBtn = document.getElementById("right");
+
+closeBtn.addEventListener("click", () => {
+  popUp.style.display = "none";
+});
+
+leftBtn.addEventListener("click", () => {
+  if (index != 0) {
+    index--;
+    if(currentType){
+      setData2();
+    }
+    else{
+      setData();
+    }
+  }
+});
+
+rightBtn.addEventListener("click", () => {
+  if (index != data.length - 1) {
+    index++;
+    if(currentType){
+      setData2();
+    }
+    else{
+      setData();
+    }
+  }
+});
 
 burger.addEventListener("click", () => {
   burger.classList.toggle("burger-active");
@@ -34,10 +76,14 @@ function setDeptName(code) {
   }
 }
 
+var i = 0;
+var j = 0;
+var currentType = 0;
 data.forEach(item => {
   let el = document.createElement("div");
   el.classList.add("card");
   el.setAttribute("id", item.id);
+  el.setAttribute("dataId",i++);
   let image = document.createElement("img");
   image.setAttribute("src", item.image);
   image.classList.add("card-img");
@@ -69,6 +115,7 @@ workshops.forEach(item => {
   let el = document.createElement("div");
   el.classList.add("card");
   el.setAttribute("id", item.id);
+  el.setAttribute("workshopId",j++);
   let image = document.createElement("img");
   image.setAttribute("src", item.image);
   image.classList.add("card-img");
@@ -96,30 +143,29 @@ workshops.forEach(item => {
   init();
 });
 
-const closeBtn = document.querySelector(".fa-times").parentElement;
-const popUp = document.querySelector(".pop-up");
-const itemName = document.getElementById("pop-up-name");
-const popUpPrize = document.getElementById("pop-up-prize");
-const popUpImage = document.getElementById("pop-up-image");
-const popUpRegistration = document.getElementById("pop-up-registration");
-const popUpRules = document.getElementById("pop-up-rules");
-const popUpNum1 = document.getElementById("pop-up-number1");
-const popUpNum2 = document.getElementById("pop-up-number2");
-
-closeBtn.addEventListener("click", () => {
-  popUp.style.display = "none";
-});
-
 var currentCard = null;
 
 function init() {
-  const cards = document.querySelectorAll(".card");
+  // const cards = document.querySelectorAll(".card");
+  const cards = document.querySelector("#content-page").querySelectorAll(".card");
   cards.forEach(card => {
     card.addEventListener("click", () => {
-      currentCard = parseInt(card.id);
+      index = parseInt(card.getAttribute("dataId"));
+      // currentCard = parseInt(card.id);
+      currentType = 0;
       setData();
     });
   });
+
+  const cards2 = document.querySelector('#workshop-page').querySelectorAll('.card');
+  cards2.forEach(card => {
+    card.addEventListener("click", () => {
+      index = parseInt(card.getAttribute("workshopID"));
+      currentType = 1;
+      setData2();
+    })
+  })
+
 }
 
 function setData() {
@@ -158,9 +204,41 @@ function setData() {
   checkStatus();
 }
 
-const leftBtn = document.getElementById("left");
-const rightBtn = document.getElementById("right");
-var index = 0;
+function setData2() {
+  currentCard = workshops[index].id;
+
+  if (currentCard >= 1000) {
+    var a = workshops.filter(obj => {
+      return obj.id === currentCard;
+    });
+  } else {
+    var a = data.filter(obj => {
+      return obj.id === currentCard;
+    });
+  }
+
+  let change1 = document.createElement("a");
+  let num = a[0].number1.split(":");
+  change1.setAttribute("href", "tel:+91" + num[1]);
+
+  let change2 = document.createElement("a");
+  let num2 = a[0].number2.split(":");
+  change2.setAttribute("href", "tel:+91" + num[1]);
+
+  itemName.innerText = a[0].name;
+  popUpRules.innerText = a[0].description;
+  popUpPrize.innerText = "";
+  popUpRegistration.innerText = a[0].registration;
+  popUpNum1.innerHTML = "";
+  change1.innerText = a[0].number1;
+  popUpNum1.appendChild(change1);
+  popUpNum2.innerHTML = "";
+  change2.innerText = a[0].number2;
+  popUpNum2.appendChild(change2);
+
+  popUp.style.display = "block";
+  checkStatus();
+}
 
 function checkStatus() {
   if (index == 0) {
@@ -174,28 +252,6 @@ function checkStatus() {
     rightBtn.classList.remove("disabled");
   }
 }
-
-leftBtn.addEventListener("click", () => {
-  if (index != 0) {
-    index--;
-    setData();
-  }
-  // if (currentCard != data[0].id) {
-  //   index--;
-  //   currentCard--;
-  // }
-});
-
-rightBtn.addEventListener("click", () => {
-  if (index != data.length - 1) {
-    index++;
-    setData();
-  }
-  // if (currentCard != data[data.length-1].id) {
-  //   currentCard = data[1].id;
-  //   setData();
-  // }
-});
 
 const slideBtn = document.getElementById("slide-btn");
 const navMenu = document.querySelector(".nav-menu");

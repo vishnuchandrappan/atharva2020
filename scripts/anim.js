@@ -1,3 +1,3 @@
-function animate() {
-  const timeline = new TimelineMax();
-}
+// function animate() {
+//   const timeline = new TimelineMax();
+// }
