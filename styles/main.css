@@ -630,7 +630,7 @@ section {
     height: 60vh;
   }
   .face .title-container h1 {
-    letter-spacing: 2px;
+    letter-spacing: 1px;
     top: 40vh;
     font-size: 4rem;
     -webkit-text-stroke: 1px #0e0d0d;
@@ -967,7 +967,7 @@ section {
 
 .content {
   position: absolute;
-  padding-top: 200px;
+  padding-top: 100px;
   top: 0;
   left: 0;
   max-width: 100vw;
@@ -988,7 +988,7 @@ section {
 
 .content h1 {
   font-size: 3rem !important;
-  letter-spacing: 2px;
+  letter-spacing: 1px;
 }
 
 @media screen and (max-width: 1024px) {
