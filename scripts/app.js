@@ -123,6 +123,8 @@ function init() {
 }
 
 function setData() {
+    currentCard = data[index].id;
+
   if (currentCard >= 1000) {
     var a = workshops.filter(obj => {
       return obj.id === currentCard;
@@ -157,19 +159,28 @@ function setData() {
 
 const leftBtn = document.getElementById("left");
 const rightBtn = document.getElementById("right");
+var index = 0;
 
 leftBtn.addEventListener("click", () => {
-  if (currentCard != data[0].id) {
-    currentCard--;
+  if(index != 0){
+    index--;
     setData();
   }
+  // if (currentCard != data[0].id) {
+  //   index--;
+  //   currentCard--;
+  // }
 });
 
 rightBtn.addEventListener("click", () => {
-  if (currentCard != data.length) {
-    currentCard++;
+  if(index != data.length-1){
+    index++;
     setData();
   }
+  // if (currentCard != data[data.length-1].id) {
+  //   currentCard = data[1].id;
+  //   setData();
+  // }
 });
 
 const slideBtn = document.getElementById("slide-btn");
