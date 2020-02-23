@@ -78,37 +78,40 @@ function setDeptName(code) {
 var i = 0;
 var j = 0;
 var currentType = 0;
-data.forEach(item => {
-  let el = document.createElement("div");
-  el.classList.add("card");
-  el.setAttribute("id", item.id);
-  el.setAttribute("dataId", i++);
-  let image = document.createElement("img");
-  image.setAttribute("src", item.image);
-  image.classList.add("card-img");
-  if (showDeptName === 1) {
-    var deptName = document.createElement("h2");
-    deptName.classList.add("dept-name");
-    deptName.innerText = setDeptName(item.department);
-  }
-  let name = document.createElement("h3");
-  name.innerText = item.name;
-  name.classList.add("card-title");
-  let description = document.createElement("p");
-  description.classList.add("card-content");
-  description.innerText = item.description;
 
-  el.appendChild(image);
-  if (showDeptName === 1) {
-    el.appendChild(deptName);
-  }
-  el.appendChild(name);
-  el.appendChild(description);
+if (!isWorkshop) {
+  data.forEach(item => {
+    let el = document.createElement("div");
+    el.classList.add("card");
+    el.setAttribute("id", item.id);
+    el.setAttribute("dataId", i++);
+    let image = document.createElement("img");
+    image.setAttribute("src", item.image);
+    image.classList.add("card-img");
+    if (showDeptName === 1) {
+      var deptName = document.createElement("h2");
+      deptName.classList.add("dept-name");
+      deptName.innerText = setDeptName(item.department);
+    }
+    let name = document.createElement("h3");
+    name.innerText = item.name;
+    name.classList.add("card-title");
+    let description = document.createElement("p");
+    description.classList.add("card-content");
+    description.innerText = item.description;
 
-  container.appendChild(el);
+    el.appendChild(image);
+    if (showDeptName === 1) {
+      el.appendChild(deptName);
+    }
+    el.appendChild(name);
+    el.appendChild(description);
 
-  init();
-});
+    container.appendChild(el);
+
+    init();
+  });
+}
 
 workshops.forEach(item => {
   let el = document.createElement("div");
@@ -146,28 +149,32 @@ var currentCard = null;
 
 function init() {
   // const cards = document.querySelectorAll(".card");
-  const cards = document
-    .querySelector("#content-page")
-    .querySelectorAll(".card");
-  cards.forEach(card => {
-    card.addEventListener("click", () => {
-      index = parseInt(card.getAttribute("dataId"));
-      // currentCard = parseInt(card.id);
-      currentType = 0;
-      setData();
-    });
-  });
+    if(!isWorkshop || isSource == 1){
+      const cards = document
+        .querySelector("#content-page")
+        .querySelectorAll(".card");
+      cards.forEach(card => {
+        card.addEventListener("click", () => {
+          index = parseInt(card.getAttribute("dataId"));
+          // currentCard = parseInt(card.id);
+          currentType = 0;
+          setData();
+        });
+      });
+    }
 
-  const cards2 = document
-    .querySelector("#workshop-page")
-    .querySelectorAll(".card");
-  cards2.forEach(card => {
-    card.addEventListener("click", () => {
-      index = parseInt(card.getAttribute("workshopID"));
-      currentType = 1;
-      setData2();
+  if(isWorkshop || isSource == 1){
+    const cards2 = document
+      .querySelector("#workshop-page")
+      .querySelectorAll(".card");
+    cards2.forEach(card => {
+      card.addEventListener("click", () => {
+        index = parseInt(card.getAttribute("workshopID"));
+        currentType = 1;
+        setData2();
+      });
     });
-  });
+  }
 }
 
 function setData() {
