@@ -3,6 +3,16 @@ const nav = document.querySelector(".nav-links");
 const sections = document.querySelectorAll("section");
 var index = 0;
 
+burger.addEventListener("click", () => {
+  burger.classList.toggle("burger-active");
+  nav.classList.toggle("nav-links-active");
+
+  sections.forEach(section => {
+    section.classList.toggle("active");
+    popUp.classList.toggle("active");
+  });
+});
+
 const closeBtn = document.querySelector(".fa-times").parentElement;
 const popUp = document.querySelector(".pop-up");
 const itemName = document.getElementById("pop-up-name");
@@ -42,15 +52,6 @@ rightBtn.addEventListener("click", () => {
   }
 });
 
-burger.addEventListener("click", () => {
-  burger.classList.toggle("burger-active");
-  nav.classList.toggle("nav-links-active");
-
-  sections.forEach(section => {
-    section.classList.toggle("active");
-    popUp.classList.toggle("active");
-  });
-});
 
 const container = document.querySelector("#content-page .card-container");
 const workshopsContainer = document.querySelector(
@@ -266,25 +267,3 @@ menuLinks.forEach(link => {
     navMenu.classList.remove("nav-menu-active");
   });
 });
-
-// type form
-
-(function() {
-  var qs,
-    js,
-    q,
-    s,
-    d = document,
-    gi = d.getElementById,
-    ce = d.createElement,
-    gt = d.getElementsByTagName,
-    id = "typef_orm_share",
-    b = "https://embed.typeform.com/";
-  if (!gi.call(d, id)) {
-    js = ce.call(d, "script");
-    js.id = id;
-    js.src = b + "embed.js";
-    q = gt.call(d, "script")[0];
-    q.parentNode.insertBefore(js, q);
-  }
-})();
