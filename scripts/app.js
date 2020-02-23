@@ -133,12 +133,24 @@ function setData() {
     });
   }
 
+  let change1 = document.createElement("a");
+  let num = a[0].number1.split(":");
+  change1.setAttribute("href", "tel:+91" + num[1]);
+
+  let change2 = document.createElement("a");
+  let num2 = a[0].number2.split(":");
+  change2.setAttribute("href", "tel:+91" + num[1]);
+
   itemName.innerText = a[0].name;
   popUpRules.innerText = a[0].description;
   popUpPrize.innerText = a[0].prize;
   popUpRegistration.innerText = a[0].registration;
-  popUpNum1.innerText = a[0].number1;
-  popUpNum2.innerText = a[0].number2;
+  popUpNum1.innerHTML = "";
+  change1.innerText = a[0].number1;
+  popUpNum1.appendChild(change1);
+  popUpNum2.innerHTML = "";
+  change2.innerText = a[0].number2;
+  popUpNum2.appendChild(change2);
 
   popUp.style.display = "block";
 }
