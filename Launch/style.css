@@ -1,0 +1,100 @@
+@import url("https://fonts.googleapis.com/css?family=Bebas+Neue|Poppins&display=swap");
+body {
+  background-color: #24282f;
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+canvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+#canvas-number {
+  width: 680px;
+  height: 420px;
+}
+
+section {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  z-index: 10;
+  width: 100%;
+}
+
+img {
+  position: absolute;
+  z-index: 10;
+  width: 80vw;
+  height: auto;
+  opacity: 0.1;
+}
+
+@media screen and (min-width: 1024px) {
+  img {
+    max-height: 60vh;
+    width: auto;
+  }
+}
+
+.img-container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  letter-spacing: 8px;
+  font-size: 5rem;
+  color: lavenderblush;
+  line-height: 0em;
+  padding-top: 50px;
+  animation: 1s anim infinite linear;
+}
+
+h3 {
+  font-size: 1.5rem;
+  color: lavenderblush;
+  line-height: 0;
+}
+
+h2 {
+  color: lavenderblush;
+  line-height: 0;
+  /* letter-spacing: 20px; */
+}
+
+@keyframes anim{
+ 0%{
+   text-shadow: 0px 10px 10px whitesmoke;
+  }
+ 10%{
+   text-shadow: 10px 10px 10px whitesmoke;
+ }
+ 20%{
+   text-shadow: 10px 0px 10px red;
+ }
+ 30%{
+   text-shadow: 10px -10px 10px whitesmoke;
+ }
+ 40%{
+   text-shadow: 0px -10px 10px green;
+ }
+ 60%{
+   text-shadow: -10px -10px 10px whitesmoke;
+ }
+ 80%{
+   text-shadow: -10px 0px 10px blue;
+ }
+ 100%{
+   text-shadow: -10px 10px 10px whitesmoke;
+ }
+ 100%{
+   text-shadow: 0px 0px 10px yellow;
+ }
+}
