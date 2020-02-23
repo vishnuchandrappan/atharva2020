@@ -23,10 +23,9 @@ closeBtn.addEventListener("click", () => {
 leftBtn.addEventListener("click", () => {
   if (index != 0) {
     index--;
-    if(currentType){
+    if (currentType) {
       setData2();
-    }
-    else{
+    } else {
       setData();
     }
   }
@@ -35,10 +34,9 @@ leftBtn.addEventListener("click", () => {
 rightBtn.addEventListener("click", () => {
   if (index != data.length - 1) {
     index++;
-    if(currentType){
+    if (currentType) {
       setData2();
-    }
-    else{
+    } else {
       setData();
     }
   }
@@ -83,7 +81,7 @@ data.forEach(item => {
   let el = document.createElement("div");
   el.classList.add("card");
   el.setAttribute("id", item.id);
-  el.setAttribute("dataId",i++);
+  el.setAttribute("dataId", i++);
   let image = document.createElement("img");
   image.setAttribute("src", item.image);
   image.classList.add("card-img");
@@ -115,7 +113,7 @@ workshops.forEach(item => {
   let el = document.createElement("div");
   el.classList.add("card");
   el.setAttribute("id", item.id);
-  el.setAttribute("workshopId",j++);
+  el.setAttribute("workshopId", j++);
   let image = document.createElement("img");
   image.setAttribute("src", item.image);
   image.classList.add("card-img");
@@ -147,7 +145,9 @@ var currentCard = null;
 
 function init() {
   // const cards = document.querySelectorAll(".card");
-  const cards = document.querySelector("#content-page").querySelectorAll(".card");
+  const cards = document
+    .querySelector("#content-page")
+    .querySelectorAll(".card");
   cards.forEach(card => {
     card.addEventListener("click", () => {
       index = parseInt(card.getAttribute("dataId"));
@@ -157,15 +157,16 @@ function init() {
     });
   });
 
-  const cards2 = document.querySelector('#workshop-page').querySelectorAll('.card');
+  const cards2 = document
+    .querySelector("#workshop-page")
+    .querySelectorAll(".card");
   cards2.forEach(card => {
     card.addEventListener("click", () => {
       index = parseInt(card.getAttribute("workshopID"));
       currentType = 1;
       setData2();
-    })
-  })
-
+    });
+  });
 }
 
 function setData() {
@@ -265,3 +266,25 @@ menuLinks.forEach(link => {
     navMenu.classList.remove("nav-menu-active");
   });
 });
+
+// type form
+
+(function() {
+  var qs,
+    js,
+    q,
+    s,
+    d = document,
+    gi = d.getElementById,
+    ce = d.createElement,
+    gt = d.getElementsByTagName,
+    id = "typef_orm_share",
+    b = "https://embed.typeform.com/";
+  if (!gi.call(d, id)) {
+    js = ce.call(d, "script");
+    js.id = id;
+    js.src = b + "embed.js";
+    q = gt.call(d, "script")[0];
+    q.parentNode.insertBefore(js, q);
+  }
+})();
