@@ -165,7 +165,7 @@ Team Size: 4 students per team.<br>
 &nbsp;&nbsp;&nbsp;&nbsp;
     `,
     prize: "Worth 5K",
-    registration: "350/group",
+    registration: "100/group",
     number1: "Anupama:9645698873",
     number2: "Karuna Reji:9562441470"
   },

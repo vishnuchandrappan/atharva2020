@@ -600,7 +600,6 @@ section {
   background-color: lavenderblush;
   float: right;
   border-radius: 5px;
-  background-image: url("https://images.pexels.com/photos/3228685/pexels-photo-3228685.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -1126,5 +1125,9 @@ footer div {
 
 .disabled {
   opacity: 0.1;
+}
+
+#pop-up-image {
+  max-height: 20vh !important;
 }
 /*# sourceMappingURL=main.css.map */
