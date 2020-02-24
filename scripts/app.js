@@ -23,6 +23,7 @@ const popUpRules = document.getElementById("pop-up-rules");
 const popUpNum1 = document.getElementById("pop-up-number1");
 const popUpNum2 = document.getElementById("pop-up-number2");
 
+
 const leftBtn = document.getElementById("left");
 const rightBtn = document.getElementById("right");
 
@@ -96,16 +97,16 @@ if (!isWorkshop) {
     let name = document.createElement("h3");
     name.innerText = item.name;
     name.classList.add("card-title");
-    let description = document.createElement("p");
-    description.classList.add("card-content");
-    description.innerText = item.description;
+    // let description = document.createElement("p");
+    // description.classList.add("card-content");
+    // description.innerText = item.description;
 
     el.appendChild(image);
     if (showDeptName === 1) {
       el.appendChild(deptName);
     }
     el.appendChild(name);
-    el.appendChild(description);
+    // el.appendChild(description);
 
     container.appendChild(el);
 
@@ -131,7 +132,8 @@ workshops.forEach(item => {
   name.classList.add("card-title");
   let description = document.createElement("p");
   description.classList.add("card-content");
-  description.innerText = item.description;
+  console.log(item.description);
+  description.innerHTML = item.description;
 
   el.appendChild(image);
   if (showDeptName === 1) {
@@ -199,13 +201,14 @@ function setData() {
   change2.setAttribute("href", "tel:+91" + num[1]);
 
   itemName.innerText = a[0].name;
-  popUpRules.innerText = a[0].description;
+  popUpRules.innerHTML = a[0].description;
   popUpPrize.innerText = a[0].prize;
   popUpRegistration.innerText = a[0].registration;
   popUpNum1.innerHTML = "";
   change1.innerText = a[0].number1;
   popUpNum1.appendChild(change1);
   popUpNum2.innerHTML = "";
+  popUpImage.setAttribute("src",a[0].image);
   change2.innerText = a[0].number2;
   popUpNum2.appendChild(change2);
 
@@ -272,5 +275,6 @@ const menuLinks = document.querySelectorAll(".menu-links");
 menuLinks.forEach(link => {
   link.addEventListener("click", () => {
     navMenu.classList.remove("nav-menu-active");
+    popUp.style.display = "none";
   });
 });
