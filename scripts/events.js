@@ -81,7 +81,7 @@ Roller Coaster track.<br>
 spirit of the competition will be disqualified<br>
     `,
     prize: "First : Rs. 2000",
-    registration: "300",
+    registration: "100",
     number1: "123456878",
     number2: "112255448"
   },
@@ -164,7 +164,7 @@ Round 2: The structures made will be tested on the day of the event.<br>
 Team Size: 4 students per team.<br>
 &nbsp;&nbsp;&nbsp;&nbsp;
     `,
-    prize: "Worth 5K",
+    prize: "Worth 2K",
     registration: "100/group",
     number1: "Anupama:9645698873",
     number2: "Karuna Reji:9562441470"
@@ -249,7 +249,7 @@ Reg fee: 100 per team
 <br><br><br>
 Google Pay : 7025406239
     `,
-    prize: "First : Rs. 2000",
+    prize: "First : Rs. 5000",
     registration: "100/team",
     number1: "Adarsh Krishnan:8593055807",
     number2: "Nandu A S:9645307590"
@@ -310,5 +310,181 @@ THREE TIMES PER PERSON<br>
     registration: "20",
     number1: "AMAL RAM HARI:9446650671",
     number2: "ANN MARY THOMAS:7025406239"
+  },
+  {
+    id: 100,
+    name: "RING ON TARGET",
+    department: "EC",
+    image: "/images/id100.jpg",
+    description: `Are u that firm of your aim...then have a throw<br>Take away your prize to home`,
+    prize: "COMING SOON...",
+    registration: "100",
+    number1: "",
+    number2: ""
+  },
+  {
+    id: 101,
+    name: "Soldering",
+    department: "EC",
+    image: "/image/101.jpg",
+    description: `Ready to join two or more metal items by melting and flowing the filler metal into the joint correctly<br>Are you that expert ??<br>Then show us`,
+    prize: "COMING SOON..., Second: Rs. 1000",
+    registration: "150",
+    number1: "",
+    number2: ""
+  },
+  {
+    id: 102,
+    name: "Pro Evaluation Soccer",
+    department: "EC",
+    image: "/image/102.jpg",
+    description: `Are you a football maniac...!<br>In and out of the ground<br>Challenge others with your tricks<br>"And be the champion in the game`,
+    prize: "COMING SOON...",
+    registration: "300",
+    number1: "",
+    number2: ""
+  },
+  {
+    id: 103,
+    name: "PROJECT EXPO",
+    department: "EC",
+    image: "/images/103.jpg",
+    description: `Exceptional idea to showcase and motivate the research talents, innovativeness, creativity<br>A free platform for the students to demonstrate their learning experience`,
+    prize: "COMING SOON...",
+    registration: "100",
+    number1: "",
+    number2: ""
+  },
+  {
+    id: 104,
+    name: "V R Gaming",
+    department: "EC",
+    image: "/images/104.jpg",
+    description: `Experience the similar or completely different stimulation from the real world<br>Don't step back, Hangup with your friends`,
+    prize: "COMING SOON...",
+    registration: "100",
+    number1: "",
+    number2: ""
+  },
+  {
+    id: 105,
+    name: "DEBATE",
+    department: "EC",
+    image: "/images/105.jpg",
+    description: `Defend what u believe<br>Do u have enough knowledge for that...then be a part of this<br>Individual participation are welcome`,
+    prize: "COMING SOON...",
+    registration: "100",
+    number1: "",
+    number2: ""
+  },
+  {
+    id: 106,
+    name: "LUDO",
+    department: "EC",
+    image: "/images/106.jpg",
+    description: `Let's go back to childhood<br>Roll the dice and troll the opponent`,
+    prize: "COMING SOON...",
+    registration: "100",
+    number1: "",
+    number2: ""
+  },
+  {
+    id: 107,
+    name: "Rock the Party",
+    department: "EC",
+    image: "/images/107.jpg",
+    description: `DJ lights and music on <br>Party mode on"<br>Come join oru party with your besties`,
+    prize: "COMING SOON...",
+    registration: "100",
+    number1: "",
+    number2: ""
+  },
+  {
+    id: 108,
+    name: "TREASURE HUNT",
+    department: "EC",
+    image: "/images/108.jpg",
+    description: `Are you brave enough to take the challenge??then welcome to CEMP on March6<br>Either u come alone to hunt our treasure or with ur friends to a maximum of 5. It depends on your bravery`,
+    prize: "COMING SOON...",
+    registration: "100",
+    number1: "",
+    number2: ""
+  },
+  {
+    id: 109,
+    name: "FM Station",
+    department: "EC",
+    image: "/images/109.jpg",
+    description: `Stay tuned to tech fest updates<br>Are you talkative with soothing voice, why don't you come forward and join us`,
+    prize: "COMING SOON...",
+    registration: "100",
+    number1: "",
+    number2: ""
+  },
+  {
+    id: 110,
+    name: "Technical idea presentation",
+    department: "EC",
+    image: "/images/110.jpg",
+    description: `Let us know your innovations..!<br>Present your latest and innovative ideas with slides<br>Only for department students with maximum of 2 groups from a class<br>Maximum of 2 member group is allowed,<br>Maximum presentation time of 15 minutes`,
+    prize: "COMING SOON...",
+    registration: "100",
+    number1: "",
+    number2: ""
+  },
+  {
+    id: 111,
+    name: "Circuit Debugging ",
+    department: "EC",
+    image: "/images/111.jpg",
+    description: `You think only coders can debug? Come, let us prove them all wrong<br>Don't miss this opportunity<br>Join us with a companion of maximum 2`,
+    prize: "COMING SOON...",
+    registration: "100",
+    number1: "",
+    number2: ""
+  },
+  {
+    id: 112,
+    name: "Boomerang County Cricket",
+    department: "EC",
+    image: "/images/112.jpg",
+    description: `Come on..!<br>With bat and ball..! <br>Let's play<br>6 overs and 6 players....and its just county..!`,
+    prize: "COMING SOON...",
+    registration: "100",
+    number1: "",
+    number2: ""
+  },
+  {
+    id: 113,
+    name: "Spot Choreography",
+    department: "EC",
+    image: "/images/113.jpg",
+    description: `Do your feets tap to any rhythm you hear<br>Come show your movements and take away our prizes`,
+    prize: "COMING SOON...",
+    registration: "COMING SOON...",
+    number1: "",
+    number2: ""
+  },
+  {
+    id: 114,
+    name: "Dark room",
+    department: "EC",
+    image: "/images/114.jpg",
+    description: `Triggered by brain's disfigured preception of what would or could happen when in a dark environment<br>Come and decide<br>Entirely free to experience the horror room`,
+    prize: "COMING SOON...",
+    registration: "100",
+    number1: "",
+    number2: ""
+  },
+  {
+    id: 115,
+    name: "TECHNICAL QUIZ",
+    department: "EC",
+    image: "/images/115.jpg",
+    description: `Battle of brains!!!<br>Your technical knowledge is tested<br>You can join us as a team of 2 members`,
+    prize: "COMING SOON...",
+    registration: "100",
+    number1: "",
+    number2: ""
   }
 ];
