@@ -224,7 +224,7 @@ Starting time :10.00 am<br>
 Ending time :12.30 pm<br>
     `,
     prize: "First : Rs. 2000,Second : Rs. 1000",
-    registration: "200/team",
+    registration: "150/team",
     number1: "Akshay Krishnan:8075902971:(Google pay)",
     number2: "Vibina Baby:9495031508"
   },
