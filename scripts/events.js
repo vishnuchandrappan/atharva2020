@@ -666,4 +666,392 @@ THREE TIMES PER PERSON<br>
     number1: "Thomas Joy:9744510187",
     number2: "Akash Sajeev:7558082218"
   },
+  {
+    id: 400,
+    name: "DARK FOOTBALL",
+    department: "EEE",
+    image: "/images/400.jpg",
+    description: `
+<h2>Rules and Regulations:</h2><hr>
+
+1. Each team should include 2 members.<br>
+2. Time limit is 10 minutes.<br>
+3. High goals & high kicks are not allower or will lead to disqualification.<br>
+4. All items for the event will be provided by the college.<br>
+5. Foul plays are disqualified.<br>
+6. Coordinator decision will be final.<br>
+`,
+    prize: "First : Rs. 3000 ,Second : 1000",
+    registration: "150,per team",
+    number1: "Jezil Mario PS:8891970820",
+    number2: "Ameerkhan N:8157931335"
+  },
+  {
+    id: 401,
+    name: "LIGHT IT UP",
+    department: "EEE",
+    image: "/images/401.jpg",
+    description: `
+  <h2>Wiring competition</h2><hr><br>
+
+  <h3>Unleash the Apollo in you</h3><hr><br>
+
+
+Wire and lit the lamp according to the provided logic.<br>
+
+<h2>Rules and Regulations:</h2><hr>
+
+1. Every team should consist of 2 members.<br>
+
+
+4.All items for the event will be provided by the college.<br>
+
+5.Usage of calculators, mobile phones and any electrical/mechanical gadgets will not be allowed within the competition venue.<br>
+
+6. The decision of judges and event coordinators shall be treated as final and binding to all.<br>
+
+7.Any malpractice is strictly treated.<br>
+
+8.The number of rounds will be decided based on the participants.<br>
+
+  `,
+    prize: "First : Rs. 2500 ,Second : 1000",
+    registration: "100,per team",
+    number1: "Gopu krishna G:8086649368",
+    number2: "Vinayak:8139092265"
+  },
+  {
+    id: 402,
+    name: "CIRCUITOS",
+    department: "EEE",
+    image: "/images/402.jpg",
+    description: `
+    <h2>Circuit Debugging</h2><hr><br>
+
+    The most effective debugging tool is still careful thought, coupled with judiciously placed print statements<br>
+    <h2>Rules and Regulations:</h2><hr>
+
+1. Every team should consist maximum of 2 members.<br>
+
+
+2.All items for the event will be provided by the college.<br>
+
+3. The decision of judges and event coordinators shall be treated as final and binding to all.<br>
+
+4.Any malpractice is strictly treated.<br>
+    `,
+    prize: "First : Rs. 1500 ,Second : 500",
+    registration: "100,per team",
+    number1: "Arjun R:9072111501",
+    number2: "Neethu Rajan:9562985465"
+  },
+  {
+    id: 403,
+    name: "VOICE OF EXOUSIA",
+    department: "EEE",
+    image: "/images/403.jpg",
+    description: `
+      Music is an art form and cultural activity<br>
+      Let’s come and participate the great event “voice of Exosia” show your talents!!!College of Engineering and management punnapra is conducting voice of Exosia in accordance with our Techno Cultural Fest named Atharva 2K20 save the date March 7th Be there!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!<br>
+
+      Candidate should bring the Necessary items for the competition<br>
+
+      NO accompanying instruments should be used<br>
+
+      The maximum time allotted for each participants is 10 minutes<br>
+
+      The competiton consist of #3 rounds<br>
+
+      Round 1: The participants can sing their favorite song<br>
+      ( with karoke)<br>
+      Round 2: Judges choice<br>
+      Round 3: sing a fast number song<br>
+
+      In round 1 The participants can sing their favourite song in any language.<br>
+
+      In round 2 The participants must sing as per the judges choice.<br>
+
+      In round 3 The participants must sing a fast number with karoke<br>
+
+      Criteria for judging<br>
+
+      Originality: Fresh sound,Approach for choosing the song based on the theme.<br>
+
+      Overall impact:The total effect on audience,pleasant attitude.<br>
+
+      Lyrical content:Coherence,Clarity,Ingenuity. <br>
+
+      `,
+    prize: "First : Rs. 8000",
+    registration: "150",
+    number1: "Augustine:9020424755",
+    number2: "Ashwani:79941 10801"
+  },
+  {
+    id: 404,
+    name: "POWER QUIZZ",
+    department: "EEE",
+    image: "/images/404.jpg",
+    description: `
+        Atharva20 presents you the platform to showcase your knowledge and potentially win prizes
+worth 3k<br>
+<h3>Quizz master: Arun S</h3>
+<h2>RULES</h2>
+ A team of 2 members can participate in the event<br>
+ Open to all<br>
+ No gadgets are allowed<br>
+ <b>Date : 6th March 2020</b>
+
+        `,
+    prize: "First : Rs. 3000",
+    registration: "Free",
+    number1: "Nadirsha:7736394013",
+    number2: "Chandrima:9562343074"
+  },
+  {
+    id: 405,
+    name: "Beanitrix",
+    department: "EEE",
+    image: "/images/405.jpg",
+    description: `
+
+         <h2> Rules and Regulations:</h2><hr>
+
+          • This is an individual game<br>
+          • Single level game <br>
+          • Time limit 60 sec<br>
+          • Foul plays are disqualified <br>
+          • Decision on of coordinates will be final  <br>
+          `,
+    prize: "First : Rs. 100",
+    registration: "10",
+    number1: "Arjun s k:9747267242",
+    number2: "Devi N:9961009198"
+  },
+    {
+    id: 200,
+    name: "AUTO QUIZ",
+    department: "MECH",
+    image: "/images/200.jpg",
+    description: "Are you a seeker of automobile history and updates…..?? If yes, here is a chance to display your knowledge.<br> MEXURGE 2020 is conducting an AUTO QUIZ based on the Automobile history and new updates… Be there and participate ….<br>Date: March 6, 11 am",
+    prize: "First : Rs. 1000",
+    registration: "Rs. 100",
+    number1: "Sherin k Mon:8113969292",
+    number2: "Abhishek A:9207625408"
+  },
+  {
+    id: 201,
+    name: "CAD MASTER",
+    department: "MECH",
+    image: "/images/201.jpg",
+    description:`“Design is not just what it looks like and feels like. Design is how it works.”-Steve Jobs<br>
+MEXURGE 2020 gives you a chance to show your design software skills. If you have knowledge in
+designing using softwares , you can participate in this competition. You have to redraw a given machine
+element sketch with all given dimensions using ZW CAD software within the allocated time.<br>
+<h2>General rules</h2><hr>
+&nbsp;&nbsp;&nbsp;&nbsp;1. Participant should have a basic knowledge in using Zw cad software.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;2. Redraw the given element sketch with all dimensions.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;3. Complete your task within the allocated time.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;4. Will not provide any extra time.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;5. Draw the component using the computer that we provides.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;6. You have 1 and half hour to complete your task.<br>
+*Marks are on the basis of how faster and how much you finished your task within the allocated time and
+the accuracy of your drawing.*<br>
+NB :The component sketch will be related to mechanical engineering. Those who have knowledge in
+using zw cad can also participate.<br>
+Date – March 7<br>Time : 10.30 am to 12 pm`,
+    prize: "First : Rs. 1000",
+    registration: "100",
+    number1: "Aswanth V Utham : 7907124818",
+    number2: "Aswin Krishna : 9745596033",
+  }
+  {
+    id: 202,
+    name: "PAPER PRESENTATION",
+    department: "MECH",
+    image: "/images/202.jpg",
+    description: `“You can have brilliant ideas but if you cannot get them across, yours ideas will go nowhere”-Lee Iacocca (ceo,Chrysler)<br>
+An idea is only as good as the revolution it sparks. MEXURGE 2020 gives you a platform to improve
+your knowledge and communication skills. These skills play a prominent role not only during the course ,
+especially during their job search and career advancement.<br>
+You can select journal paper related to any stream of engineering. Study the paper and prepare well for
+the presentation. Its time to show your presentation skills..<br>
+<h2>General rules</h2><hr>
+&nbsp;&nbsp;&nbsp;&nbsp;1. You can select any research paper or review paper.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;2. Submit the hard copy of your journal paper with abstract before the presentation.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;3. Only individual presentation is allowed.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;4. You should have PowerPoint slides which contains the brief of your paper.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;5. Oral presentation must be in English only.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;6. Time of your presentation will be 15 minutes and 5 min interactive section.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;7. Time of presentation is fixed.<br>
+<h2>Marks are given by evaluating the following</h2><hr>
+&nbsp;&nbsp;&nbsp;&nbsp;1. Attractive and understandable presentation.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;2. Communication skill in English.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4. Time management.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5. Style of presentation.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;6. Eye contact.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;7. Knowledge on paper.<br>
+Deadline of submission : 3/3/2020<br>
+Certificates are provided for the participants.`,
+    prize: "First : Rs. 1000",
+    registration: "100",
+    number1: "Abhiram Chandran : 9074764903",
+    number2: "Athul S : 7356489843"
+  }
+  {
+    id: 203,
+    name: "PARK THE CAR",
+    department: "MECH",
+    image: "/images/203.jpg",
+    description: `If you are a good driver …. Show your driving skill to park a car… But it is not
+that simple …. A little harder than the normal parking ….<br>
+MEXURGE 2020 presenting you an event PARK THE CAR …There will be
+a car parking arena with a special track.<br>
+<h2>General instructions</h2><hr>
+&nbsp;&nbsp;&nbsp;&nbsp;1. Participant must have LMV driving license.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;2. A car will be provided for you.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;3. Drive carefully.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;4. Drifting is not allowed.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;5. Strictly obey the instructions.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;6. Touching of any obstacle will result in disqualification.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;7. Coordinator’s decision will be final.<br>
+Perfect parking in a short time will be the winner.<br>
+Date: March 7`,
+    prize: "First : Rs. 1000",
+    registration: "100",
+    number1: "Jose Thomas: 7025265466",
+    number2: "Anantha Krishna: 8921567132"
+  },
+  {
+    id: 204,
+    name: "ROBORACE",
+    department: "MECH",
+    image: "/images/204.jpg",
+    description: `“When you start thinking you may get hurt, it&#39;s time to get out of racing”<br>
+Mario Andretti<br>
+<h2>Your task and robot specification</h2><hr>
+Design a robot either wired or wireless within the specified dimension
+that can operated manually and can travel through the track with
+obstacles.<br>
+<h2>Design specification</h2><hr>
+&nbsp;&nbsp;&nbsp;&nbsp;1. Max dimensions – 25cm×20cm×15cm (l×b×h)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;2. Robot can be wired or wireless.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;3. Need enough wire for wired robots.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;4. Machine must be handmade, don’t use any ready made kits, if we
+find such machines it will be disqualified.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;5. Machine must be powered electrically only using batteries.<br>
+<h2>Game rules<h/2><hr>
+&nbsp;&nbsp;&nbsp;&nbsp;1. Fastest and most balanced robot will win.Based on time trail.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;2. Robot should be as given specification.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;3. Can participate as single or team ( max 3 members)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;4. Robot should not damage the arena.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;5. No test practices will be allowed in the track.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;6. Robot must not leave any of its parts during the run, else it will
+lead to disqualification.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;7. Faculty and student coordinator&#39;s decisions will be final.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;8. There is no second chance, so check your robot before the race.<br>
+<h2>BEWARE! OBSTACLES CAN SLOW YOU DOWN....BE
+PREPARED.....</h2>`,
+    prize: "First : Rs.(coming soon) ",
+    registration: "200",
+    number1: "Ananthu P : 9446713775",
+    number2: "Akshay V R : 8113815451"
+  },
+  {
+    id: 205,
+    name: "SNAKE N LADDERS",
+    department: "MECH",
+    image: "/images/205.jpg",
+    description: `“Play to win, but enjoy the fun...”<br>
+MEXURGE 2020 is presenting you a game with lots of fun...The name may be nostalgic for you,
+because it was one of your childish game...but it is not that simple board game.. IT’S MUCH BIGGER
+... Here you will be the one who walk through the cell...the one who climb the ladders... the one who go
+ahead and jump in front of the snake... your team mate decides your luck.... So beware.. Game rules are
+similar to the board game with little modifications....<br>
+<h2>Game rules</h2><hr>
+&nbsp;&nbsp;&nbsp;&nbsp;1. Similar to board game rules.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;2. Team of 2 members, one should throw the dice and another should act as the game piece token.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;3. Special rule is that if one team occupied a position and another team throw the dice and got the
+same position. So that team can put them into the first cell.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;4. The rules cannot be violated.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;5. Consider the game just for fun and play friendly.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;6. 5 team at a time.<br>
+Be there and play...snakes are waiting for you ..beware!<br>
+<h2>SPOT REGISTRATION</h2><br>
+DATE :MARCH 6 , 7`,
+    prize: "First : Rs. 2000",
+    registration: "rs.30 (per team)",
+    number1: "Hariprasad P : 6282714215",
+    number2: "Mekhesh : 8547582837"
+  },
+  {
+    id: 206,
+    name: "KSRTC EXPO",
+    department: "MECH",
+    image: "/images/206.jpg",
+    description: `Anavandi ..side seat .. music... What a feel... Did you ever think about its anatomy... ?? Its time to
+see them closer..<br>
+MEXURGE 2020 brings you a detailed exhibition of various parts of engine and vehicle of KSRTC.
+We welcomes you on March 6 and 7<br>
+Expo will open for you from 10 am to 4.30 pm`,
+    prize: "",
+    registration: "",
+    number1: "Sanjo Jose : 9562503751",
+    number2: "Jomon George : 8157090935"
+  },
+  {
+    id: 8,
+    name: "Event 8",
+    department: "MECH",
+    image: "https://picsum.photos/200/300",
+    description: "Lorm ipsum 6",
+    prize: "First : Rs. 2000",
+    registration: "100",
+    number1: "123456878",
+    number2: "112255448"
+  },
+  {
+    id: 9,
+    name: "Event 9",
+    department: "MECH",
+    image: "https://picsum.photos/200/300",
+    description: "Lorm ipsum 6",
+    prize: "First : Rs. 2000",
+    registration: "100",
+    number1: "123456878",
+    number2: "112255448"
+  },
+  {
+    id: 10,
+    name: "Event 10",
+    department: "MECH",
+    image: "https://picsum.photos/200/300",
+    description: "Lorm ipsum 6",
+    prize: "First : Rs. 2000",
+    registration: "100",
+    number1: "123456878",
+    number2: "112255448"
+  },
+  {
+    id: 11,
+    name: "Event 11",
+    department: "MECH",
+    image: "https://picsum.photos/200/300",
+    description: "Lorm ipsum 6",
+    prize: "First : Rs. 2000",
+    registration: "100",
+    number1: "123456878",
+    number2: "112255448"
+  },
+  {
+    id: 12,
+    name: "Event 12",
+    department: "MECH",
+    image: "https://picsum.photos/200/300",
+    description: "Lorm ipsum 6",
+    prize: "First : Rs. 2000",
+    registration: "100",
+    number1: "123456878",
+    number2: "112255448"
+  }
 ];
