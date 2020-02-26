@@ -1130,4 +1130,41 @@ footer div {
 #pop-up-image {
   max-height: 20vh !important;
 }
+
+.tagline {
+  padding: 10px;
+  font-family: "Poppins", sans-serif;
+  font-size: 24px;
+  padding-bottom: 100px;
+  height: 70vh;
+  margin: 10px auto;
+  max-width: 50%;
+  text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+  .tagline {
+    padding: 10px;
+    font-family: "Poppins", sans-serif;
+    font-size: 24px;
+    overflow-y: scroll;
+    padding-bottom: 60px;
+    height: 70vh;
+    margin: 10px auto;
+    max-width: 75%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .tagline {
+    padding: 10px;
+    font-family: "Poppins", sans-serif;
+    font-size: 24px;
+    overflow-y: scroll;
+    padding-bottom: 60px;
+    height: 70vh;
+    margin: 10px auto;
+    max-width: 95%;
+  }
+}
 /*# sourceMappingURL=main.css.map */
