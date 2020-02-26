@@ -165,10 +165,12 @@ function init() {
       });
     }
 
-  if(isWorkshop || isSource == 1){
+  if(isWorkshop == 1 || isSource == 1){
     const cards2 = document
       .querySelector("#workshop-page")
       .querySelectorAll(".card");
+    console.log("asd");
+
     cards2.forEach(card => {
       card.addEventListener("click", () => {
         index = parseInt(card.getAttribute("workshopID"));
