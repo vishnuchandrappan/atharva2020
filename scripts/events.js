@@ -864,7 +864,7 @@ Date – March 7<br>Time : 10.30 am to 12 pm`,
     registration: "100",
     number1: "Aswanth V Utham : 7907124818",
     number2: "Aswin Krishna : 9745596033",
-  }
+  },
   {
     id: 202,
     name: "PAPER PRESENTATION",
@@ -897,7 +897,7 @@ Certificates are provided for the participants.`,
     registration: "100",
     number1: "Abhiram Chandran : 9074764903",
     number2: "Athul S : 7356489843"
-  }
+  },
   {
     id: 203,
     name: "PARK THE CAR",

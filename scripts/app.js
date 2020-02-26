@@ -80,7 +80,7 @@ var i = 0;
 var j = 0;
 var currentType = 0;
 
-if (!isWorkshop) {
+if (isWorkshop == 0) {
   data.forEach(item => {
     let el = document.createElement("div");
     el.classList.add("card");
