@@ -1,5 +1,21 @@
 //please note : ID for workshop should be given from 1000
 var workshops = [
+    {
+    id: 1000,
+    name: "Android ",
+    department: "CSEIT",
+    image: "/images/1000.jpg",
+    description: `"<h2>Android Development Workshop</h2><hr><b>
+   <b> ”Coding is today's language of creativity. All ourselves deserve a chance to become creators instead consumers of computer science.”</b>
+    When a device goes from just working to actually making life easier, Android is behind it. It’s the reason your GPS avoids traffic, your watch can text and your Assistant can answer questions. It’s the operating system inside 2.5 billion active devices. Everything from 5G phones to stunning tablets, Android powers them all. <br>
+    <b>Date : 6/03/2020</b> <br>
+    <b>Time : 10am – 3:30pm</b><br>
+    <b>Conducted by SPECTRUM SOFTTECH SOLUTIONS PRIVATE LTD</b><br>
+    "`,
+    registration: "250",
+    number1: "Hari Krishna:9744483104",
+    number2: "Ashna p:963291657"
+  },
   {
     id: 1300,
     name: `WORKSHOP ON KMBR (KERALA MUNICIPAL BUILDING RULES)`,

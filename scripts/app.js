@@ -130,17 +130,17 @@ workshops.forEach(item => {
   let name = document.createElement("h3");
   name.innerText = item.name;
   name.classList.add("card-title");
-  let description = document.createElement("p");
-  description.classList.add("card-content");
-  console.log(item.description);
-  description.innerHTML = item.description;
+  // let description = document.createElement("p");
+  // description.classList.add("card-content");
+  // console.log(item.description);
+  // description.innerHTML = item.description;
 
   el.appendChild(image);
   if (showDeptName === 1) {
     el.appendChild(deptName);
   }
   el.appendChild(name);
-  el.appendChild(description);
+  // el.appendChild(description);
 
   workshopsContainer.appendChild(el);
 
