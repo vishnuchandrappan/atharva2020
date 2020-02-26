@@ -238,7 +238,7 @@ function setData2() {
   change2.setAttribute("href", "tel:+91" + num[1]);
 
   itemName.innerText = a[0].name;
-  popUpRules.innerText = a[0].description;
+  popUpRules.innerHTML = a[0].description;
   popUpPrize.innerText = "";
   popUpRegistration.innerText = a[0].registration;
   popUpNum1.innerHTML = "";
