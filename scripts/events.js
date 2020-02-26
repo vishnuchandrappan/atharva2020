@@ -650,17 +650,7 @@ THREE TIMES PER PERSON<br>
     number1: "Abdul Muneer:9847352258",
     number2: "Antony Augustine:9605321621"
   },
-  {
-    id: 13,
-    name: "Pic with the pet",
-    department: "CSEIT",
-    image: "/images/13.webp",
-    description: "Pic with the pet",
-    prize: "First : Rs. 1000",
-    registration: "Free",
-    number1: "Thomas Joy:9744510187",
-    number2: "Akash Sajeev:7558082218"
-  },
+  
   {
     id: 400,
     name: "DARK FOOTBALL",
@@ -1150,17 +1140,6 @@ discover that it can make creative fuel from anything.” </b><br>
     registration: "500",
     number1: "NA",
     number2: "NA"
-  },
-  {
-    id: 12,
-    name: "Event 12",
-    department: "MECH",
-    image: "https://picsum.photos/200/300",
-    description: "Lorm ipsum 6",
-    prize: "First : Rs. 2000",
-    registration: "100",
-    number1: "123456878",
-    number2: "112255448"
   },
   {
     id: 16,
