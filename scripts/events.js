@@ -511,18 +511,7 @@ THREE TIMES PER PERSON<br>
     number2: "Thomas Joy:9744510187",
     number3: "Jibin Thomas Jose:7736115876"
   },
-  {
-    id: 0,
-    name: "PUBG",
-    department: "CSEIT",
-    image: "/images/0.webp",
-    description: "PUBG",
-    prize: "First : Rs. 2000",
-    registration: "200,per squad",
-    number1: "Siva Prasad:9539153070",
-    number2: "Thomas Joy:9744510187",
-    number3: "Jibin Thomas Jose:7736115876"
-  },
+  
   {
     id: 1,
     name: "Exterminator",
@@ -1172,5 +1161,20 @@ discover that it can make creative fuel from anything.” </b><br>
     registration: "100",
     number1: "123456878",
     number2: "112255448"
+  },
+  {
+    id: 16,
+    name: "Brew With Us",
+    department: "CSEIT",
+    image: "/images/16.webp",
+    description: `"<h2>Learning Station</h2><hr>
+     <b>A bunch of people with common goal!!<b>
+    
+    
+    "`,
+    prize: "NA",
+    registration: "10",
+    number1: "Akash Sajeev : 7558082218",
+    number2: "Sruthi Sunil : 9447437577"
   }
 ];

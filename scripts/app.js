@@ -72,7 +72,7 @@ function setDeptName(code) {
     case "EEE":
       return "EXOUSIA";
     default:
-      break;
+      return "GENERAL EVENT";
   }
 }
 
