@@ -20,7 +20,7 @@ var workshops = [
     id: 1300,
     name: `WORKSHOP ON KMBR (KERALA MUNICIPAL BUILDING RULES)`,
     department: "CE",
-    image: "/images/1300.jpg",
+    image: "/images/1300.webp",
     description: `
    <h2> Objective:</h2><hr><br> Familiarize with basic KMBR requirements.
 Activities: prepare plan for residential buildings to fit the given plot meeting
@@ -50,7 +50,7 @@ Remarks: suitable for students of all academic years.<br>
     id: 1200,
     name: "WORKSHOP ON DUCATI INNOVATION AND TECHNOLOGY",
     department: "MECH",
-    image: "/images/1200.jpg",
+    image: "/images/1200.webp",
     description: `
 "Anything that gets your blood racing is probably worth doing"
 -Hunter S Thompson<br>
@@ -90,7 +90,7 @@ N.B: Only the first 100 delegates will be able to attend the workshop.<br>
     id: 1201,
     name: "ASHOK LEYLAND LECTURE CLASS",
     department: "MECH",
-    image: "/images/1201.jpg",
+    image: "/images/1201.webp",
     description: `“A lecture is much more of a dialogue than many of you probably realize”<br>
 -George Wald<br>
 ASHOK LEYLAND is an Indian automobile company owned by Hinduja
@@ -112,7 +112,7 @@ Registration link:Click <a href='https://forms.gle/DBm1gTgMevipLsNv5'> here</a>`
     id: 1100,
     name: "Artficial intelligence & Machine learning",
     department: "EC",
-    image: "/images/1100.jpg",
+    image: "/images/1100.webp",
     description: `
     Be job ready...!<br>
     Up skill yourself...!!<br>

@@ -47,7 +47,7 @@ cancelled<br>
     id: 303,
     name: "ROTOLARE",
     department: "CE",
-    image: "/images/303.jpg",
+    image: "/images/comingsoon.webp",
     description: `
     <h2>INTRODUCTION</h2>: Roller coasters are thrill rides that operates like a railroad track. The history
 of this ride reflects a constant search for greater and more death-defying thrills. They are made
@@ -232,7 +232,7 @@ Ending time :12.30 pm<br>
     id: 307,
     name: "SLIP SOCCER",
     department: "CE",
-    image: "/images/307.webp",
+    image: "/images/comingsoon.webp",
     description: `
 For the football lovers and the tough souls who are ready and free to fall, this game is all yours.
 A slippery platform which is made of an air-filled balloon would add all the fun to the sport.
@@ -316,11 +316,11 @@ THREE TIMES PER PERSON<br>
     name: "RING ON TARGET",
     department: "EC",
     image: "/images/100.webp",
-    description: `Are u that firm of your aim...then have a throw<br>Take away your prize to home`,
-    prize: "COMING SOON...",
+    description: `Are u that firm of your aim...then have a throw<br>`,
+    prize: "Take away your prize to home",
     registration: "100",
-    number1: "",
-    number2: ""
+    number1: "Prince: 9188025658",
+    number2: "Arjun : 9249249657"
   },
   {
     id: 101,
@@ -362,9 +362,9 @@ THREE TIMES PER PERSON<br>
     image: "/images/104.webp",
     description: `Experience the similar or completely different stimulation from the real world<br>Don't step back, Hangup with your friends`,
     prize: "COMING SOON...",
-    registration: "100",
-    number1: "",
-    number2: ""
+    registration: "30",
+    number1: "Aiswarya K : 9539932628 ",
+    number2: "Jomi Mariyam Jejo : 8606921965"
   },
   {
     id: 105,
@@ -395,7 +395,7 @@ THREE TIMES PER PERSON<br>
     image: "/images/107.webp",
     description: `DJ lights and music on <br>Party mode on"<br>Come join oru party with your besties`,
     prize: "COMING SOON...",
-    registration: "100",
+    registration: "NA",
     number1: "",
     number2: ""
   },
@@ -437,11 +437,23 @@ THREE TIMES PER PERSON<br>
     name: "Circuit Debugging ",
     department: "EC",
     image: "/images/111.webp",
-    description: `You think only coders can debug? Come, let us prove them all wrong<br>Don't miss this opportunity<br>Join us with a companion of maximum 2`,
-    prize: "COMING SOON...",
-    registration: "100",
-    number1: "",
-    number2: ""
+    description: `You think only coders can debug? Come, let us prove them all wrong<br>Don't miss this opportunity<br>Join us with a companion of maximum 2<br>
+    Ever been bugged lately and tried to solve it? Here is your chance to do so! Crack your technical brain to unravel the mystery behind the bugs of the circuit. Do you have to tester all your technical knowledge -How to rectify the glitch and make it right? If so, then get ready to be bugged!!
+    A team may consist of maximum two members<br>
+* College ID card is compulsory<br>
+* Use of mobile phones and calculators and any other   electronic/other gadgets are strictly   prohibited.<br>
+* Participants have to reach the venue at least 15 minutes before the scheduled time.<br>
+*  Participants bear the whole responsibility of their components and equipment and will be fined if damaged.<br>
+* Decision of judges are final and cash prize will be award.     <br>                             
+ * Participants are provided with certificates with assured activity points as per KTU guidlines.<br>
+ * Participants can register their names to the co-ordinators <br> 
+ Date: March 7 <br> 
+ Time : 11 am - 12 pm <br> 
+    `,
+    prize: "1000",
+    registration: "50 / team",
+    number1: "SREELEKSHMY BABU : 9400798863",
+    number2: "NOUFIYA N : 9745207591"
   },
   {
     id: 112,
@@ -450,7 +462,7 @@ THREE TIMES PER PERSON<br>
     image: "/images/112.webp",
     description: `Come on..!<br>With bat and ball..! <br>Let's play<br>6 overs and 6 players....and its just county..!`,
     prize: "COMING SOON...",
-    registration: "100",
+    registration: "",
     number1: "",
     number2: ""
   },
