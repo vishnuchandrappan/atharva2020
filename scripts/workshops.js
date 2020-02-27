@@ -4,7 +4,7 @@ var workshops = [
     id: 1000,
     name: "Android ",
     department: "CSEIT",
-    image: "/images/1000.jpg",
+    image: "/images/1000.webp",
     description: `"<h2>Android Development Workshop</h2><hr><b>
    <b> ”Coding is today's language of creativity. All ourselves deserve a chance to become creators instead consumers of computer science.”</b>
     When a device goes from just working to actually making life easier, Android is behind it. It’s the reason your GPS avoids traffic, your watch can text and your Assistant can answer questions. It’s the operating system inside 2.5 billion active devices. Everything from 5G phones to stunning tablets, Android powers them all. <br>

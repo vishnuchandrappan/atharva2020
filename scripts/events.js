@@ -47,7 +47,7 @@ cancelled<br>
     id: 303,
     name: "ROTOLARE",
     department: "CE",
-    image: "/images/303.webp",
+    image: "/images/303.jpg",
     description: `
     <h2>INTRODUCTION</h2>: Roller coasters are thrill rides that operates like a railroad track. The history
 of this ride reflects a constant search for greater and more death-defying thrills. They are made
@@ -538,7 +538,7 @@ THREE TIMES PER PERSON<br>
     id: 2,
     name: "Idea Presentation",
     department: "CSEIT",
-    image: "/images/.2jpg",
+    image: "/images/2.webp",
     description: "Idea Presentation",
     prize: "First : Rs. 1000",
     registration: "50",
@@ -1049,7 +1049,7 @@ All body builders are welcomed to this Festive<br>
   },
   {
     id: 601,
-    name: "",
+    name: "Terpsi Choreo",
     department: "GE",
     image: "/images/601.webp",
     description: `"
@@ -1064,7 +1064,7 @@ All body builders are welcomed to this Festive<br>
                   -𝙰𝚕𝚋𝚎𝚛𝚝 𝙴𝚒𝚗𝚜𝚝𝚎𝚒𝚗<br>
   <b>𝙳𝚊𝚗𝚌𝚎 : 𝚃𝚑𝚎 𝚌𝚘𝚖𝚖𝚞𝚗𝚒𝚌𝚊𝚝𝚒𝚘𝚗 𝚋𝚎𝚝𝚠𝚎𝚎𝚗 𝚋𝚘𝚍𝚢 𝚊𝚗𝚍 𝚜𝚘𝚞𝚕.𝙸𝚝 𝚖𝚊𝚢 𝚑𝚞𝚛𝚝, 𝚛𝚎𝚚𝚞𝚒𝚛𝚎𝚜 𝚍𝚎𝚍𝚒𝚌𝚊𝚝𝚒𝚘𝚗, 𝚜𝚊𝚌𝚛𝚒𝚏𝚒𝚜𝚎 𝚊𝚗𝚍 𝚠𝚒𝚕𝚕𝚙𝚘𝚠𝚎𝚛.𝚃𝚑𝚎𝚛𝚎 𝚠𝚒𝚕𝚕 𝚋𝚎 𝚝𝚎𝚖𝚙𝚝𝚊𝚝𝚒𝚘𝚗.𝙱𝚞𝚝 𝚠𝚎 𝚙𝚛𝚘𝚖𝚒𝚜𝚎 𝚢𝚘𝚞, 𝚠𝚑𝚎𝚗 𝚢𝚘𝚞 𝚛𝚎𝚊𝚌𝚑 𝚢𝚘𝚞𝚛 𝚐𝚘𝚊𝚕, 𝙸𝚝𝚜 𝚠𝚘𝚛𝚝𝚑 𝚒𝚝..</b><br>
   <b>𝐊𝐄𝐄𝐏 𝐓𝐇𝐄 𝐅𝐈𝐑𝐄 𝐀𝐍𝐃 𝐆𝐈𝐕𝐄 𝐀 𝐁𝐋𝐀𝐒𝐓</b><br>
-  𝙽𝚎𝚟𝚎𝚛 𝚖𝚒𝚜𝚜 𝚝𝚑𝚒𝚜 𝚊𝚠𝚎𝚜𝚘𝚖𝚎 𝚙𝚘𝚜𝚜𝚒𝚋𝚒𝚕𝚒𝚝𝚢:sparkles:<br>
+  𝙽𝚎𝚟𝚎𝚛 𝚖𝚒𝚜𝚜 𝚝𝚑𝚒𝚜 𝚊𝚠𝚎𝚜𝚘𝚖𝚎 𝚙𝚘𝚜𝚜𝚒𝚋𝚒𝚕𝚒𝚝𝚢<br>
 
 𝘛𝘦𝘢𝘮 𝘮𝘢𝘺 𝘩𝘢𝘷𝘦 𝘢 𝘮𝘢𝘹𝘪𝘮𝘶𝘮 𝘰𝘧 30 𝘮𝘦𝘮𝘣𝘦𝘳𝘴<br>
 𝘛𝘩𝘦𝘮𝘢𝘵𝘪𝘤 𝘢𝘯𝘥 𝘕𝘰𝘯- 𝘵𝘩𝘦𝘮𝘢𝘵𝘪𝘤 𝘥𝘢𝘯𝘤𝘦𝘴 𝘢𝘳𝘦 𝘢𝘭𝘭𝘰𝘸𝘦𝘥<br>
@@ -1132,10 +1132,10 @@ discover that it can make creative fuel from anything.” </b><br>
   },
  
   {
-    id: 16,
+    id: 17,
     name: "Brew With Us",
     department: "CSEIT",
-    image: "/images/16.webp",
+    image: "/images/17.webp",
     description: `"<h2>Learning Station</h2><hr>
      <b>A bunch of people with common goal!!<b>
     
