@@ -328,7 +328,7 @@ THREE TIMES PER PERSON<br>
     department: "EC",
     image: "/images/101.webp",
     description: `Ready to join two or more metal items by melting and flowing the filler metal into the joint correctly<br>Are you that expert ??<br>Then show us`,
-    prize: "COMING SOON..., Second: Rs. 1000",
+    prize: "COMING SOON...",
     registration: "150",
     number1: "",
     number2: ""
@@ -510,6 +510,17 @@ THREE TIMES PER PERSON<br>
     number1: "Siva Prasad:9539153070",
     number2: "Thomas Joy:9744510187",
     number3: "Jibin Thomas Jose:7736115876"
+  },
+  {
+    id: 16,
+    name: "Expo",
+    department: "CSEIT",
+    image: "/images/16.webp",
+    description: "General exppo",
+    prize: "Best project : Rs. 1000",
+    registration: "Free",
+    number1: "Muhammed Rustham : 8921655023",
+    number2: "Kavya Prasad : 7012199931"
   },
   
   {
@@ -717,20 +728,20 @@ Wire and lit the lamp according to the provided logic.<br>
     department: "EEE",
     image: "/images/402.webp",
     description: `
-    <h2>Circuit Debugging</h2><hr><br>
-    Ever tried to solve a bugged circuit?Here is yours chance to do it.<br>
-    Crack your technical brain to find the mystery behind bug of the circuit.<br>
-    Do you have it in you to fester all your technical knowledge how to rectify the glitch and make it right?<br>
-    If so, then get ready to be debugged..!!!<br>
-    The most effective debugging tool is still careful thought, coupled with judiciously placed print statements.<br>
-    <h2>Rules and Regulations:</h2><hr>
+    <h2>Circuit Debugging</h2><hr>ce
+    Ever tried to solve a bugged cce
+    Crack your technical brain to ce
+    Do you have it in you to festecee it right?<br>
+    If so, then get ready to be dece
+    The most effective debugging tceint statements.<br>
+    <h2>Rules and Regulations:</h2ce
 
-1. Every team should consist maximum of 2 members.<br>
+1. Every team should consist maximce
 
 
-2.All items for the event will be provided by the college.<br>
+2.All items for the event will be ce
 
-3. The decision of judges and event coordinators shall be treated as final and binding to all.<br>
+3. The decision of judges and evence
 
 4.Any malpractice is strictly treated.<br>
     `,
@@ -1119,28 +1130,7 @@ discover that it can make creative fuel from anything.” </b><br>
     number1: "Aparna : 9605057030",
     number2: "Nikil Ramanan : 7356041125"
   },
-  {
-    id: 207,
-    name: "Lecture Class",
-    department: "MECH",
-    image: "/images/207.webp",
-    description: "Coming Soon....",
-    prize: "NA",
-    registration: "250",
-    number1: "NA",
-    number2: "NA"
-  },
-  {
-    id: 208,
-    name: "Ducati Workshop",
-    department: "MECH",
-    image: "/images/208.webp",
-    description: "Coming Soon",
-    prize: "NA",
-    registration: "500",
-    number1: "NA",
-    number2: "NA"
-  },
+ 
   {
     id: 16,
     name: "Brew With Us",
