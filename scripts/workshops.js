@@ -143,5 +143,23 @@ Registration link:Click <a href='https://forms.gle/DBm1gTgMevipLsNv5'> here</a>`
     registration: "200",
     number1: "Mithula P:917559015725",
     number2: "Anaswara Vijayan Pillai:919495750958"
+  },
+  {
+    id: 1400,
+    name: "ARDUINO WORKSHOP",
+    department: "EEE",
+    image: "/images/1400.webp",
+    description:`
+    LEARNING SOLID PRINCIPES OF ART IS ESSENTIAL BUT IT IS ALSO IMPORTANT TO UNDERSTAND OUR ARTIST MINDSET. WHEN WE LEAVE A WORKSHOP WE WANT TO LEAVE A BETTER ARTIST AND A BETTER PERSON.<br>
+    &nbsp;&nbsp;&nbsp;&nbsp; <b>-GWEN FOX</b><br>
+    Conducted by: <b>BITSFORGE EMBEDDED SYSTEMS</b><br>
+    •Venue : CEMP<br>
+•Date:March 6<br>
+
+    `,
+    registration: "200",
+    number1: "ANUGRAHA : 8138078826",
+    number2:"PARVATHI : 9048735829",
+    number3:"SEETHALEKSHMI : 9645902026"
   }
 ];

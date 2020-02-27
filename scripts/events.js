@@ -38,7 +38,7 @@ cancelled<br>
 &nbsp;&nbsp;&nbsp;&nbsp;* The decision of the event committee shall be final<br>
 &nbsp;&nbsp;&nbsp;&nbsp;* Any team that violate the rules above or the spirit of the competition will be disqualified<br>
     `,
-    prize: "Rs. 1000/-",
+    prize: "Rs. 2000/-",
     registration: "50",
     number1: "Irfan Nizam:7559936893: (G Pay)",
     number2: "Sruthi V J:9496124074"
@@ -134,7 +134,7 @@ will be cancelled<br>
 disqualified.<br>
 &nbsp;&nbsp;&nbsp;&nbsp;
     `,
-    prize: "Coming Soon",
+    prize: "2000",
     registration: "Coming Soon",
     number1: "Jannath T:8714269023",
     number2: "Surya T S:8157942003"
@@ -164,7 +164,7 @@ Round 2: The structures made will be tested on the day of the event.<br>
 Team Size: 4 students per team.<br>
 &nbsp;&nbsp;&nbsp;&nbsp;
     `,
-    prize: "Worth 2K",
+    prize: "1000",
     registration: "100/group",
     number1: "Anupama:9645698873",
     number2: "Karuna Reji:9562441470"
@@ -223,7 +223,7 @@ Venue :S4 civil<br>
 Starting time :10.00 am<br>
 Ending time :12.30 pm<br>
     `,
-    prize: "First : Rs. 2000,Second : Rs. 1000",
+    prize: "Rs. 1000",
     registration: "150/team",
     number1: "Akshay Krishnan:8075902971:(Google pay)",
     number2: "Vibina Baby:9495031508"
