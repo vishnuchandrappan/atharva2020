@@ -962,20 +962,20 @@ Wire and lit the lamp according to the provided logic.<br>
     department: "EEE",
     image: "/images/402.webp",
     description: `
-    <h2>Circuit Debugging</h2><hr>ce
-    Ever tried to solve a bugged cce
-    Crack your technical brain to ce
-    Do you have it in you to festecee it right?<br>
-    If so, then get ready to be dece
-    The most effective debugging tceint statements.<br>
-    <h2>Rules and Regulations:</h2ce
+    <h2>Circuit Debugging</h2><hr>
+    Ever tried to solve a bugged circuit ? Here is a chance to do it.
+    Crack your technical brain to find the mystry behind bug of the circuit<br>
+    Do you have it in you to fester all your technical knowledge , how to rectify the glich and make it right?<br>
+    If so, then get ready to be debugged<br>
+    The most effective debugging tool is still carefull thought , coupled with judiciously placed print statements.<br>
+    <h2>Rules and Regulations:</h2><hr>
 
-1. Every team should consist maximce
+1. Every team should consist maximum 2 members<br>
 
 
-2.All items for the event will be ce
+2.All items for the event will be provided by  college<br>
 
-3. The decision of judges and evence
+3. The decision of judges will be final<br>
 
 4.Any malpractice is strictly treated.<br>
     `,
@@ -991,7 +991,7 @@ Wire and lit the lamp according to the provided logic.<br>
     image: "/images/403.webp",
     description: `
       Music is an art form and cultural activity<br>
-      Let’s come and participate the great event “voice of Exosia” show your talents!!!College of Engineering and management punnapra is conducting voice of Exosia in accordance with our Techno Cultural Fest named Atharva 2K20 save the date March 7th Be there!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!<br>
+      Let’s come and participate the great event “voice of Exousia” show your talents!!!College of Engineering and management punnapra is conducting voice of Exousia in accordance with our Techno Cultural Fest named Atharva 2K20 save the date March 6th Be there!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!<br>
 
       Candidate should bring the Necessary items for the competition<br>
 
@@ -1248,7 +1248,7 @@ Expo will open for you from 10 am to 4.30 pm`,
     name: "Mr.Atharva",
     department: "GE",
     image: "/images/600.webp",
-    description: `"
+    description: `
    <h2> ATHARVA 2020</h2><hr>
 .
 <h3>STUDENTS UNION 2019-20 </h3>
@@ -1273,10 +1273,10 @@ All body builders are welcomed to this Festive<br>
 <b>𝙾𝚗𝚕𝚢 𝚝𝚑𝚎 𝚞𝚙𝚙𝚎𝚛 𝚋𝚘𝚍𝚢 𝚍𝚒𝚜𝚙𝚕𝚊𝚢 𝚒𝚜 𝚊𝚕𝚕𝚘𝚠𝚎𝚍 </b> 𝚂𝚙𝚘𝚝 𝚛𝚎𝚐𝚒𝚜𝚝𝚛𝚊𝚝𝚒𝚘𝚗 𝚒𝚜 𝚙𝚘𝚜𝚜𝚒𝚋𝚕𝚎<br>
 
 𝙱𝚎 𝚛𝚎𝚊𝚍𝚢 𝚝𝚘 𝚜𝚑𝚘𝚠 𝚝𝚑𝚊𝚝 𝚢𝚘𝚞 𝚊𝚛𝚎 𝚗𝚘𝚝 𝚕𝚒𝚔𝚎 𝚎𝚟𝚎𝚛𝚢𝚋𝚘𝚍𝚢 𝚊𝚗𝚍 𝚐𝚎𝚝 𝚊 𝚌𝚑𝚊𝚗𝚌𝚎 𝚝𝚘 𝚠𝚒𝚗 𝚙𝚛𝚒𝚣𝚎𝚜 𝚠𝚘𝚛𝚝𝚑 𝟷𝟻 𝚔<br>
-
+<a href="https://bit.ly/32r8syf">Register here</a>
     
-    "`,
-    prize: "𝙵𝚒𝚛𝚜𝚝 : Rs. 𝟾000,𝚂𝚎𝚌𝚘𝚗𝚍 : Rs. 𝟻0000, 𝚃𝚑𝚒𝚛𝚍  : Rs. 𝟸000",
+    `,
+    prize: "𝙵𝚒𝚛𝚜𝚝 : Rs. 𝟾000,𝚂𝚎𝚌𝚘𝚗𝚍 : Rs. 𝟻000, 𝚃𝚑𝚒𝚛𝚍  : Rs. 𝟸000",
     registration: "100",
     number1: "𝙰𝚝𝚑𝚞𝚕 𝚂𝚊𝚝𝚑𝚢𝚊 : 𝟾𝟻𝟺𝟽𝟻𝟾𝟸𝟾𝟹𝟽",
     number2: "𝙰𝚜𝚠𝚒𝚗 𝙻𝚊𝚕 : 𝟽𝟿𝟿𝟺𝟸𝟶𝟿𝟾𝟺𝟽"
@@ -1286,7 +1286,7 @@ All body builders are welcomed to this Festive<br>
     name: "Terpsi Choreo",
     department: "GE",
     image: "/images/601.webp",
-    description: `"
+    description: `
     𝚆𝚎 𝙳𝙰𝙽𝙲𝙴 𝚏𝚘𝚛 𝙻𝚊𝚞𝚐𝚑𝚝𝚎𝚛<br>
 𝚆𝚎 𝙳𝙰𝙽𝙲𝙴 𝚏𝚘𝚛 𝚃𝚎𝚊𝚛𝚜<br>
 𝚆𝚎 𝙳𝙰𝙽𝙲𝙴 𝚏𝚘𝚛 𝙼𝚊𝚍𝚗𝚎𝚜𝚜<br>
@@ -1307,9 +1307,10 @@ All body builders are welcomed to this Festive<br>
 𝘎𝘳𝘦𝘦𝘯 𝘳𝘰𝘰𝘮𝘴 𝘸𝘪𝘭𝘭 𝘣𝘦 𝘢𝘷𝘢𝘪𝘭𝘢𝘣𝘭𝘦<br>
 𝘗𝘦𝘳𝘧𝘰𝘳𝘮𝘢𝘯𝘤𝘦 𝘸𝘪𝘭𝘭 𝘣𝘦 𝘫𝘶𝘥𝘨𝘦𝘥 𝘶𝘱𝘰𝘯 𝘵𝘩𝘦𝘪𝘳 𝘴𝘵𝘺𝘭𝘦, 𝘳𝘩𝘺𝘵𝘩𝘮, 𝘧𝘰𝘳𝘮𝘢𝘵𝘪𝘰𝘯, 𝘴𝘺𝘯𝘤𝘩𝘳𝘰𝘯𝘪𝘻𝘢𝘵𝘪𝘰𝘯, 𝘦𝘹𝘱𝘳𝘦𝘴𝘴𝘪𝘰𝘯, 𝘤𝘰𝘴𝘵𝘶𝘮𝘦𝘴, 𝘮𝘢𝘬𝘦𝘶𝘱 𝘢𝘯𝘥 𝘰𝘷𝘦𝘳𝘢𝘭𝘭 𝘦𝘧𝘧𝘦𝘤𝘵<br>
 𝘑𝘶𝘥𝘨𝘦𝘮𝘦𝘯𝘵 𝘸𝘪𝘭𝘭 𝘣𝘦 𝘧𝘪𝘯𝘢𝘭<br>
+<a href="https://forms.gle/NX4jz81kgwEY2AXF6">Register here</a>
 
 
-    "`,
+    `,
     prize: "First : Rs. 10000,Second : Rs. 7000,Third : Rs. 3000",
     registration: "100",
     number1: "𝐃𝐑𝐎𝐔𝐏𝐀𝐃𝐈 𝐌𝐎𝐇𝐀𝐍 : 𝟗𝟓𝟐𝟔𝟓𝟏𝟕𝟖𝟐𝟏",
