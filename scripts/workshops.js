@@ -6,12 +6,14 @@ var workshops = [
     department: "CSEIT",
     image: "/images/1000.webp",
     description: `"<h2>Android Development Workshop</h2><hr><b>
-   <b> ”Coding is today's language of creativity. All ourselves deserve a chance to become creators instead consumers of computer science.”</b>
-    When a device goes from just working to actually making life easier, Android is behind it. It’s the reason your GPS avoids traffic, your watch can text and your Assistant can answer questions. It’s the operating system inside 2.5 billion active devices. Everything from 5G phones to stunning tablets, Android powers them all. <br>
-    <b>Date : 6/03/2020</b> <br>
+    ANDROID . . . an OS focused on making your everyday life easier
+Anyone you talk to will tell you that making apps for Android OS is a great idea.They’re not wrong , but for informed app developers detailed knowledge is necessary before making a decision that would have long-term consequences
+Technaura 2020 opens a window for all techies to explore the vast world of android
+Lets join this journey to find the secrets of android<br>
+   <b>Date : 6/03/2020</b> <br>
     <b>Time : 10am – 3:30pm</b><br>
     <b>Conducted by SPECTRUM SOFTTECH SOLUTIONS PRIVATE LTD</b><br>
-    "`,
+    `,
     registration: "250",
     number1: "Hari Krishna:9744483104",
     number2: "Ashna p:963291657"
