@@ -38,7 +38,7 @@ cancelled<br>
 &nbsp;&nbsp;&nbsp;&nbsp;* The decision of the event committee shall be final<br>
 &nbsp;&nbsp;&nbsp;&nbsp;* Any team that violate the rules above or the spirit of the competition will be disqualified<br>
     `,
-    prize: "Rs. 1000/-",
+    prize: "Rs. 2000/-",
     registration: "50",
     number1: "Irfan Nizam:7559936893: (G Pay)",
     number2: "Sruthi V J:9496124074"
@@ -47,7 +47,7 @@ cancelled<br>
     id: 303,
     name: "ROTOLARE",
     department: "CE",
-    image: "/images/303.webp",
+    image: "/images/comingsoon.webp",
     description: `
     <h2>INTRODUCTION</h2>: Roller coasters are thrill rides that operates like a railroad track. The history
 of this ride reflects a constant search for greater and more death-defying thrills. They are made
@@ -134,7 +134,7 @@ will be cancelled<br>
 disqualified.<br>
 &nbsp;&nbsp;&nbsp;&nbsp;
     `,
-    prize: "Coming Soon",
+    prize: "First : 2000",
     registration: "Coming Soon",
     number1: "Jannath T:8714269023",
     number2: "Surya T S:8157942003"
@@ -164,7 +164,7 @@ Round 2: The structures made will be tested on the day of the event.<br>
 Team Size: 4 students per team.<br>
 &nbsp;&nbsp;&nbsp;&nbsp;
     `,
-    prize: "Worth 2K",
+    prize: "1000",
     registration: "100/group",
     number1: "Anupama:9645698873",
     number2: "Karuna Reji:9562441470"
@@ -223,7 +223,7 @@ Venue :S4 civil<br>
 Starting time :10.00 am<br>
 Ending time :12.30 pm<br>
     `,
-    prize: "First : Rs. 2000,Second : Rs. 1000",
+    prize: "Rs. 1000",
     registration: "150/team",
     number1: "Akshay Krishnan:8075902971:(Google pay)",
     number2: "Vibina Baby:9495031508"
@@ -232,7 +232,7 @@ Ending time :12.30 pm<br>
     id: 307,
     name: "SLIP SOCCER",
     department: "CE",
-    image: "/images/307.webp",
+    image: "/images/comingsoon.webp",
     description: `
 For the football lovers and the tough souls who are ready and free to fall, this game is all yours.
 A slippery platform which is made of an air-filled balloon would add all the fun to the sport.
@@ -316,11 +316,11 @@ THREE TIMES PER PERSON<br>
     name: "RING ON TARGET",
     department: "EC",
     image: "/images/100.webp",
-    description: `Are u that firm of your aim...then have a throw<br>Take away your prize to home`,
-    prize: "COMING SOON...",
+    description: `Are u that firm of your aim...then have a throw<br>`,
+    prize: "Take away your prize to home",
     registration: "100",
-    number1: "",
-    number2: ""
+    number1: "Prince: 9188025658",
+    number2: "Arjun : 9249249657"
   },
   {
     id: 101,
@@ -328,7 +328,7 @@ THREE TIMES PER PERSON<br>
     department: "EC",
     image: "/images/101.webp",
     description: `Ready to join two or more metal items by melting and flowing the filler metal into the joint correctly<br>Are you that expert ??<br>Then show us`,
-    prize: "COMING SOON..., Second: Rs. 1000",
+    prize: "COMING SOON...",
     registration: "150",
     number1: "",
     number2: ""
@@ -362,9 +362,9 @@ THREE TIMES PER PERSON<br>
     image: "/images/104.webp",
     description: `Experience the similar or completely different stimulation from the real world<br>Don't step back, Hangup with your friends`,
     prize: "COMING SOON...",
-    registration: "100",
-    number1: "",
-    number2: ""
+    registration: "30",
+    number1: "Aiswarya K : 9539932628 ",
+    number2: "Jomi Mariyam Jejo : 8606921965"
   },
   {
     id: 105,
@@ -395,7 +395,7 @@ THREE TIMES PER PERSON<br>
     image: "/images/107.webp",
     description: `DJ lights and music on <br>Party mode on"<br>Come join oru party with your besties`,
     prize: "COMING SOON...",
-    registration: "100",
+    registration: "NA",
     number1: "",
     number2: ""
   },
@@ -437,11 +437,23 @@ THREE TIMES PER PERSON<br>
     name: "Circuit Debugging ",
     department: "EC",
     image: "/images/111.webp",
-    description: `You think only coders can debug? Come, let us prove them all wrong<br>Don't miss this opportunity<br>Join us with a companion of maximum 2`,
-    prize: "COMING SOON...",
-    registration: "100",
-    number1: "",
-    number2: ""
+    description: `You think only coders can debug? Come, let us prove them all wrong<br>Don't miss this opportunity<br>Join us with a companion of maximum 2<br>
+    Ever been bugged lately and tried to solve it? Here is your chance to do so! Crack your technical brain to unravel the mystery behind the bugs of the circuit. Do you have to tester all your technical knowledge -How to rectify the glitch and make it right? If so, then get ready to be bugged!!
+    A team may consist of maximum two members<br>
+* College ID card is compulsory<br>
+* Use of mobile phones and calculators and any other   electronic/other gadgets are strictly   prohibited.<br>
+* Participants have to reach the venue at least 15 minutes before the scheduled time.<br>
+*  Participants bear the whole responsibility of their components and equipment and will be fined if damaged.<br>
+* Decision of judges are final and cash prize will be award.     <br>                             
+ * Participants are provided with certificates with assured activity points as per KTU guidlines.<br>
+ * Participants can register their names to the co-ordinators <br> 
+ Date: March 7 <br> 
+ Time : 11 am - 12 pm <br> 
+    `,
+    prize: "1000",
+    registration: "50 / team",
+    number1: "SREELEKSHMY BABU : 9400798863",
+    number2: "NOUFIYA N : 9745207591"
   },
   {
     id: 112,
@@ -450,7 +462,7 @@ THREE TIMES PER PERSON<br>
     image: "/images/112.webp",
     description: `Come on..!<br>With bat and ball..! <br>Let's play<br>6 overs and 6 players....and its just county..!`,
     prize: "COMING SOON...",
-    registration: "100",
+    registration: "",
     number1: "",
     number2: ""
   },
@@ -492,7 +504,27 @@ THREE TIMES PER PERSON<br>
     name: "NFS MOST WANTED",
     department: "CSEIT",
     image: "/images/14.webp",
-    description: "NFS MOSTWANTED",
+    description: `
+    <b>“Part of the challenge of Most Wanted is trying to become the most notorious street racer on the pavement.” </b><br>
+
+Racing in race tracks is for professionals.
+Racing illegally in roads with traffic and police are for men.<br>
+Technaura 2020 is setting a race in city roads, Welcoming every blacklist racers to the race <br>
+<h2>Rules </h2><hr>
+&nbsp&nbsp&nbsp&nbsp&nbsp1.Rules may subject to change during course of event. <br>
+&nbsp&nbsp&nbsp&nbsp&nbsp2. Players must be present in the tournament area at the notifications schedule.<br>
+&nbsp&nbsp&nbsp&nbsp&nbsp3. Players are advised to be present a few minutes before the schedule to avoid any unpredictable delay. If the player is not present at the notification schedule, he shall be disqualified.<br>
+&nbsp&nbsp&nbsp&nbsp&nbsp4. All the mentioned rules should be followed without argument with the tournament official, the violation of which may result in player or team disqualification, the decision to do the same lies in the hand of the tournament official present there. <br>
+<h2>Format </h2><hr>
+&nbsp&nbsp&nbsp&nbsp&nbsp• Sprint, Circuit Races will be played by 4 players in the preliminary matches.<br>
+&nbsp&nbsp&nbsp&nbsp&nbsp• Players getting the 1st and 2nd position in the races will qualify for the next round.<br>
+&nbsp&nbsp&nbsp&nbsp&nbsp• For the Pre-Quarter finals, game mode will be circuit (2 laps).<br>
+&nbsp&nbsp&nbsp&nbsp&nbsp• For the Quarter finals, game mode will be best of 2 races (1 circuit,1 sprint).<br>
+&nbsp&nbsp&nbsp&nbsp&nbsp• For the Semi-final, game mode will be best of 3 races (1 circuit, 2 sprint). <br>
+&nbsp&nbsp&nbsp&nbsp&nbsp• For the Finals, game mode will be best of 3 races (2 circuits, 1 sprint).<br>
+
+
+    `,
     prize: "First : Rs. 2000",
     registration: "50",
     number1: "Siva Prasad:9539153070",
@@ -504,12 +536,53 @@ THREE TIMES PER PERSON<br>
     name: "FIFA",
     department: "CSEIT",
     image: "/images/15.webp",
-    description: "FIFA",
+    description: `
+   <b> “The thing about football - the important thing about football - is that it is not just about football.” <b><br>
+
+The UEFA Champions League, Europa League and Super Cup come to life across experiences in EA 
+SPORTS FIFA 19. From a title chase in The Journey: Champions, to live content updates in FIFA 19
+Ultimate Team™, to authentic Kick Off and Career Mode integration, to an all-new standalone
+Champions League Mode, you can experience the greatest club football competition in the world no
+matter where you play in FIFA 19. <br> 
+
+<h2>Rules & Regulations </h2><hr>
+&nbsp&nbsp&nbsp&nbsp&nbsp1. There will be a co-ordinator always present throughout the course of the match.<br> 
+&nbsp&nbsp&nbsp&nbsp&nbsp2. If any player of the winning team gets a booking, that will be carried over to the next match.<br> 
+&nbsp&nbsp&nbsp&nbsp&nbsp3. Home side will be decided by toss.<br> 
+&nbsp&nbsp&nbsp&nbsp&nbsp4. Participants can choose any team except the Legendary teams (i.e. World XI, Classic XI)<br> 
+&nbsp&nbsp&nbsp&nbsp&nbsp5. The team once chosen by a participant cannot be changed in the course of the tournament.<br> 
+&nbsp&nbsp&nbsp&nbsp&nbsp6. Participants can change the team lineup and formation. Default squad cannot be changed.<br> 
+&nbsp&nbsp&nbsp&nbsp&nbsp7. Custom tactics is allowed.<br> 
+&nbsp&nbsp&nbsp&nbsp&nbsp8. In the course of a match, the game cannot be stopped by an individual unless the ball goes outside and the throw or goal kick is in favour of the individual who wants to pause the game.<br> 
+&nbsp&nbsp&nbsp&nbsp&nbsp9. Before pausing the participant must ask for permission to the moderator.<br> 
+&nbsp&nbsp&nbsp&nbsp&nbsp10. Game controls must be checked before starting of the match in the arena. Match will not be paused if a player claims his controls are not set afterwards.<br> 
+&nbsp&nbsp&nbsp&nbsp&nbsp11. Any technical difficulty found must be informed immediately to the co-ordinator. If the match is restarted, the goals and the match timings will be carried over to the new match.<br> 
+&nbsp&nbsp&nbsp&nbsp&nbsp12. A draw (tie in score) will be resolved by penalty shootout only. If there is a tie after the shootout then the result will be declared by means of toss.<br> 
+&nbsp&nbsp&nbsp&nbsp&nbsp13. The decisions of the co-ordinator will be final.<br> 
+
+
+    `,
     prize: "First : Rs. 1000",
     registration: "100",
     number1: "Siva Prasad:9539153070",
     number2: "Thomas Joy:9744510187",
     number3: "Jibin Thomas Jose:7736115876"
+  },
+  {
+    id: 16,
+    name: "Expo",
+    department: "CSEIT",
+    image: "/images/16.webp",
+    description: `
+    Augmented Reality (AR) is a broiling subject that has been progressively attention-grabbing of the insiders from Mass media, Newspapers, and Equipment (Technologies) Segments in the present day
+Technaura 2020 presents an opportunity for experiencing the high-end tech adventures at the temple of knowledge CEMP.
+Also we welcome you to present your projects.<br>
+Best project will be awarded<br>
+    `,
+    prize: "Best project : Rs. 1000",
+    registration: "Free",
+    number1: "Muhammed Rustham : 8921655023",
+    number2: "Kavya Prasad : 7012199931"
   },
   
   {
@@ -517,7 +590,18 @@ THREE TIMES PER PERSON<br>
     name: "Exterminator",
     department: "CSEIT",
     image: "/images/1.webp",
-    description: "Debugging",
+    description: `
+    <b>“Houston…We have a pest problem!”</b><br>
+What will you do if your code is filled with bugs….How good are you in eliminating the bugs ruining your  code
+Its time for you to solve the pest problem<br>
+Its time for you to become the Exterminator<br><br>
+<h2>Rules</h2><hr>
+&nbsp&nbsp&nbsp&nbsp&nbsp• Participant will be provided code with errors<br>
+&nbsp&nbsp&nbsp&nbsp&nbsp• You have to detect the error and correct the code<br>
+&nbsp&nbsp&nbsp&nbsp&nbsp• You will have one chance to test your corrected code<br>
+&nbsp&nbsp&nbsp&nbsp&nbsp• Participant with fewer error will be considered as winner<br>
+&nbsp&nbsp&nbsp&nbsp&nbsp• In case of tie,the winner will be decided according to the time taken to debug the code<br>  
+    `,
     prize: "First : Rs. 1000",
     registration: "50",
     number1: "Varghese Josey:8547366085",
@@ -527,8 +611,25 @@ THREE TIMES PER PERSON<br>
     id: 2,
     name: "Idea Presentation",
     department: "CSEIT",
-    image: "/images/.2jpg",
-    description: "Idea Presentation",
+    image: "/images/2.webp",
+    description: `
+   <b> “Everything begins with an idea”</b><hr>
+From tiniest nanobots to large space shuttles..Everything around us formed from an idea.
+We are on the quest to find the greatest mind among us.
+If you have an idea,Technaura2020 calls on you.Show us what you have in your mind.
+Lets bring a change in the world!<br><br>
+
+<b>Aim</b><hr>
+&nbsp&nbsp&nbsp&nbsp&nbspParticipants are invited to come up with new innovative Prototype or Ideas that will help in efficiently.<br>
+
+<h2>Rules</h2><hr> 
+
+&nbsp&nbsp&nbsp&nbsp&nbsp• The idea must be within the realm of Science and Technology.<br>
+&nbsp&nbsp&nbsp&nbsp&nbsp• Participants should bring supporting data(if any)<br>
+&nbsp&nbsp&nbsp&nbsp&nbsp• Valuation will be based on way of Creativity,Novelty,Originality,design etc.<br>
+&nbsp&nbsp&nbsp&nbsp&nbsp• Judge’s decision will be final.<br>
+    
+    `,
     prize: "First : Rs. 1000",
     registration: "50",
     number1: "Aswin S:8921087514",
@@ -539,13 +640,16 @@ THREE TIMES PER PERSON<br>
     name: "Code Monk",
     department: "CSEIT",
     image: "/images/3.webp",
-    description: `"
+    description: `
     <h2>Code Monk —a fun way to become a better programmer!</h2><hr>
-    Code Monk is a curated list of topics to help you improve your programming skills to the next level. The series focuses on aspiring programmers who aim to be better at coding  <br>
-    Participants are required to solve problems through coding. Programming and algorithmic skills of the participants will be tested. <br>
-    The participants can write their code your own which language is comfortable for them. There is no need to bring any system or laptop with them<br>
+    Code Monk is curated list of topics to help you improve your programming skills to the next level.
+    The series focuses on aspiring programmers who aim to be better at coding.<br>
     <h2>Rules and Regulations</h2>
-    "`,
+    &nbsp&nbsp&nbsp&nbsp&nbsp• Participants are required to solve problems through coding.<br>
+    &nbsp&nbsp&nbsp&nbsp&nbsp• Programming and algorithm skills of the participants will be tested.<br>
+    &nbsp&nbsp&nbsp&nbsp&nbsp• Participants can write their code on any language comfortableSystem will be provided <br>
+    &nbsp&nbsp&nbsp&nbsp&nbsp• System will be provided<br>
+    `,
     prize: "First : Rs. 2000",
     registration: "50",
     number1: "Unnikannan P:7356046905",
@@ -556,7 +660,21 @@ THREE TIMES PER PERSON<br>
     name: "Googler",
     department: "CSEIT",
     image: "/images/4.webp",
-    description: "Googler",
+    description: `
+    <b>How good are you in finding things?</b><br>
+Think you can find anything from web?<br>
+
+Lets see how can you find things using google<br>
+
+<h2>Rules</h2><br>
+
+&nbsp&nbsp&nbsp&nbsp&nbsp• Find things<br>
+&nbsp&nbsp&nbsp&nbsp&nbsp• Hints will be provided<br>
+&nbsp&nbsp&nbsp&nbsp&nbsp• Find within the given time<br>
+&nbsp&nbsp&nbsp&nbsp&nbsp• Any malpractice will lead to direct disqualification<br>
+&nbsp&nbsp&nbsp&nbsp&nbsp• Judge’s decision will be final<br>
+
+    `,
     prize: "First : Rs. 500",
     registration: "50",
     number1: "Vishnu Suresh:7994905906",
@@ -567,7 +685,19 @@ THREE TIMES PER PERSON<br>
     name: "Chaos Keyboard",
     department: "CSEIT",
     image: "/images/5.webp",
-    description: "Srambled keyboard",
+    description:`
+    Your keyboard fell apart,do you think you you can put it back together!
+Choose from  keyboard patterns and then  drag the keys to their correct places on the keyboard. 
+If you can remove the chaos from the keyboard,show us your capability<br>
+
+<h2>Rules</h2><hr>
+&nbsp&nbsp&nbsp&nbsp&nbsp• Participants will be provided a keyboard with the keys removed<br>
+&nbsp&nbsp&nbsp&nbsp&nbsp• You will be requested to arrange keys at their original positions<br>
+&nbsp&nbsp&nbsp&nbsp&nbsp• Must  finish with in the given time limit <br>
+&nbsp&nbsp&nbsp&nbsp&nbsp• Use of images to refer is not allowed<br>
+&nbsp&nbsp&nbsp&nbsp&nbsp• Any malpractice will lead to immediate disqualification<br>
+&nbsp&nbsp&nbsp&nbsp&nbsp• Decision of judge’s will be final<br>
+    `,
     prize: "First : Rs. 500",
     registration: "50",
     number1: "Adrian Antony:8943111923",
@@ -578,7 +708,22 @@ THREE TIMES PER PERSON<br>
     name: "Too Fast Too Furious",
     department: "CSEIT",
     image: "/images/6.webp",
-    description: "Speed Coding",
+    description: `
+    Yes you can type fast,<br>
+Can you code fast….faster…??<br>
+Race against the time….show us your speed<br>
+
+<b>LETS SPEED CODE</b>
+
+<h2>Rules</h2><hr>
+
+&nbsp&nbsp&nbsp&nbsp&nbsp• Code within the given time<br>
+&nbsp&nbsp&nbsp&nbsp&nbsp• Prize will be awarded based on the completion time of code<br>
+&nbsp&nbsp&nbsp&nbsp&nbsp• In case of tie winner will be decided based on the efficiency of the code<br>
+&nbsp&nbsp&nbsp&nbsp&nbsp• Any malpractice will lead to the direct disqualification<br>
+&nbsp&nbsp&nbsp&nbsp&nbsp• Judge’s decision will be final<br>
+
+    `,
     prize: "First : Rs. 1000",
     registration: "50",
     number1: "Anandhakrishnan A:8848601179",
@@ -589,7 +734,24 @@ THREE TIMES PER PERSON<br>
     name: "Relay Coding",
     department: "CSEIT",
     image: "/images/7.webp",
-    description: "Relay Coding",
+    description: `
+   <b> “A FRIEND IN NEED IS A FRIEND INDEED”</b><br><br>
+
+Can your friend finish the code you started?<br>
+
+If you think so…band together,join us….<br>
+Show your bond<br>
+
+<h2>Rules</h2><hr>
+
+&nbsp&nbsp&nbsp&nbsp&nbsp • A team should consist of 3-4 members<br>
+&nbsp&nbsp&nbsp&nbsp&nbsp • Problem will be provided<br>
+&nbsp&nbsp&nbsp&nbsp&nbsp • Duration will be 1 hour<br>
+&nbsp&nbsp&nbsp&nbsp&nbsp • For a team of 3 members,each member will have 20 minutes <br>
+&nbsp&nbsp&nbsp&nbsp&nbsp • For a team of 4 members,each member will have 15 minutes <br>
+&nbsp&nbsp&nbsp&nbsp&nbsp • Any malpractice will lead to direct disqualification<br>
+&nbsp&nbsp&nbsp&nbsp&nbsp • Judge’s decision will be final<br>
+    `,
     prize: "First : Rs. 2000",
     registration: "50",
     number1: "Binuraj K S:8714915552",
@@ -600,7 +762,20 @@ THREE TIMES PER PERSON<br>
     name: "Blind Coding",
     department: "CSEIT",
     image: "/images/8.webp",
-    description: "Lorm ipsum 6",
+    description: `
+    Are you up for a challenge…..think you can beat it….<br>
+Then pick up your system….Turn off the monitor….<br>
+Start coding<br>
+Show how can you code without seeing<br>
+
+<h2>Rules</h2><hr>
+&nbsp&nbsp&nbsp&nbsp&nbsp  • Contestants are allotted a PC with the screen turned off and the keyboard scrambled.<br>
+&nbsp&nbsp&nbsp&nbsp&nbsp • They are to code the given program successfully within a time frame of 2 minutes.<br>
+&nbsp&nbsp&nbsp&nbsp&nbsp   • The code will be run only once and the contestant will be eliminated if the code shows error.<br>
+&nbsp&nbsp&nbsp&nbsp&nbsp  • If two contestants successfully code the program then the one who took up less time will be awarded the first position<br>
+
+    
+    `,
     prize: "First : Rs. 1000",
     registration: "50",
     number1: "Anandhakrishnan8848601179",
@@ -611,7 +786,19 @@ THREE TIMES PER PERSON<br>
     name: "Dr.PC",
     department: "CSEIT",
     image: "/images/9.webp",
-    description: "PC Assembly",
+    description: `
+    You woke up one day and what you see is that your PC has been dismantled by someone<br>
+Are you able to fix this<br>
+Its time to become the Dr.PC<br>
+Lets try to assemble your PC<br>
+
+<h2>Rules</h2><hr>
+&nbsp&nbsp&nbsp&nbsp&nbsp • You will be provided with a disassembled PC<br>
+&nbsp&nbsp&nbsp&nbsp&nbsp  • Assemble the PC within the given time  limit<br>
+&nbsp&nbsp&nbsp&nbsp&nbsp  • Any form of guide is not allowed<br>
+&nbsp&nbsp&nbsp&nbsp&nbsp  • Any malpractice will lead to the direct disqualification<br>
+&nbsp&nbsp&nbsp&nbsp&nbsp  • Judges decision will be final<br>
+    `,
     prize: "First : Rs. 500",
     registration: "50",
     number1: "Adrian Antony:8943111923",
@@ -622,7 +809,20 @@ THREE TIMES PER PERSON<br>
     name: "Trivia",
     department: "CSEIT",
     image: "/images/10.webp",
-    description: "Quiz",
+    description: `
+    Quiz competition is a pursuit of trivial Knowledge,<br>
+
+We here at Technaura2020 encourages students to achieve academic excellence and Increase their 
+awareness of the world around them.<br>
+
+<h2>Rules and Regulations</h2><hr>
+&nbsp&nbsp&nbsp&nbsp&nbsp • Solo event<br>
+&nbsp&nbsp&nbsp&nbsp&nbsp  • Participants should have internet enabled mobile phone<br>
+&nbsp&nbsp&nbsp&nbsp&nbsp  • There will be time limit for each question<br>
+&nbsp&nbsp&nbsp&nbsp&nbsp  • Any malpractice will lead to the direct disqualification<br>
+&nbsp&nbsp&nbsp&nbsp&nbsp • Judge’s decision will be final<br>
+    
+    `,
     prize: "First : Rs. 1000,Second : Rs.500",
     registration: "50",
     number1: "Muhammed Rustham:8921655023",
@@ -633,7 +833,34 @@ THREE TIMES PER PERSON<br>
     name: "Time Slip",
     department: "CSEIT",
     image: "/images/11.webp",
-    description: "Spot Photography",
+    description: `
+   <b> “Photography takes an instant out of time, altering life by holding it still.” </b><br>
+   &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp    – Dorothea Lange<br><br>
+
+Photography is the art, application and practice of creating durable images by recording light or
+other electromagnetic radiation, either electronically by image sensor, or chemically by means of a
+light-sensitive material such as photographic film. It is employed in many fields of science,
+manufacturing and business, as well as its more direct uses for art, film and video production,
+recreational purposes, hobby, and mass communication.  <br><br>
+ 
+<h2>Rules & Regulations </h2>
+
+&nbsp&nbsp&nbsp&nbsp&nbsp    ◦ It is an individual competition.<br> 
+
+&nbsp&nbsp&nbsp&nbsp&nbsp  ◦ You can use only mobile cameras.(Any mobile can be used) <br>
+
+&nbsp&nbsp&nbsp&nbsp&nbsp  ◦ The participant will have to submit his/her best picture of the provided theme. <br>
+
+&nbsp&nbsp&nbsp&nbsp&nbsp  ◦ Basic editing, including color enhancement, the use of filters, and cropping of the 
+
+image is not acceptable <br>
+
+&nbsp&nbsp&nbsp&nbsp&nbsp  ◦ Advanced editing used to create illusions, deceptions and/or manipulations, and the
+
+adding and removing of significant elements within the frame is prohibited.<br>
+ 
+&nbsp&nbsp&nbsp&nbsp&nbsp  ◦ Decision of the judges will be final and binding. <br>
+    `,
     prize: "First : Rs. 1000",
     registration: "100",
     number1: "Thomas Joy:9744510187",
@@ -644,11 +871,29 @@ THREE TIMES PER PERSON<br>
     name: "3’S Football",
     department: "CSEIT",
     image: "/images/12.webp",
-    description: "3’S Football",
+    description: `
+    Do you want to take it to the next level? Then get ready to show the world your talent!
+football is like life - it requires perserverance, self-denial, hard work, sacrifice, dedication and respect for authority
+Football is an art,players paint with their feet<br>
+<b>I may win and I may lose but I will never be defeated</b><br>
+
+<h2>Rules and Regulations</h2><hr>
+
+•Maximum number of teams from a college is three.<br>
+•Maximum number of participants per team is 4 including rolling substitution.<br>
+•Maximum time limit is 8 minutes (4+4).<br>
+•Substitution can be made when ball is in dead situation.<br>
+•Players are not allowed to shoot the ball towards the upper portion of the body. Those who get warning twice in row will have to face penalty.<br>
+•Direct kicks towards the goal post is considered as goal.<br>
+•Out kicks are taken by foot.<br>
+• Players are not allowed to stand inside the penalty area for 10 seconds.<br>
+•Only captains are allowed to contact the committee for queries and complaints.<br>
+•Referees decision is final.<br>
+    `,
     prize: "First : Rs. 3000, Second: Rs. 1500",
     registration: "300",
-    number1: "Abdul Muneer:9847352258",
-    number2: "Antony Augustine:9605321621"
+    number1: "Abdul Muneer : 9847352258",
+    number2: "Antony Augustine : 9605321621"
   },
   
   {
@@ -717,20 +962,20 @@ Wire and lit the lamp according to the provided logic.<br>
     department: "EEE",
     image: "/images/402.webp",
     description: `
-    <h2>Circuit Debugging</h2><hr><br>
-    Ever tried to solve a bugged circuit?Here is yours chance to do it.<br>
-    Crack your technical brain to find the mystery behind bug of the circuit.<br>
-    Do you have it in you to fester all your technical knowledge how to rectify the glitch and make it right?<br>
-    If so, then get ready to be debugged..!!!<br>
-    The most effective debugging tool is still careful thought, coupled with judiciously placed print statements.<br>
-    <h2>Rules and Regulations:</h2><hr>
+    <h2>Circuit Debugging</h2><hr>ce
+    Ever tried to solve a bugged cce
+    Crack your technical brain to ce
+    Do you have it in you to festecee it right?<br>
+    If so, then get ready to be dece
+    The most effective debugging tceint statements.<br>
+    <h2>Rules and Regulations:</h2ce
 
-1. Every team should consist maximum of 2 members.<br>
+1. Every team should consist maximce
 
 
-2.All items for the event will be provided by the college.<br>
+2.All items for the event will be ce
 
-3. The decision of judges and event coordinators shall be treated as final and binding to all.<br>
+3. The decision of judges and evence
 
 4.Any malpractice is strictly treated.<br>
     `,
@@ -1038,7 +1283,7 @@ All body builders are welcomed to this Festive<br>
   },
   {
     id: 601,
-    name: "",
+    name: "Terpsi Choreo",
     department: "GE",
     image: "/images/601.webp",
     description: `"
@@ -1053,7 +1298,7 @@ All body builders are welcomed to this Festive<br>
                   -𝙰𝚕𝚋𝚎𝚛𝚝 𝙴𝚒𝚗𝚜𝚝𝚎𝚒𝚗<br>
   <b>𝙳𝚊𝚗𝚌𝚎 : 𝚃𝚑𝚎 𝚌𝚘𝚖𝚖𝚞𝚗𝚒𝚌𝚊𝚝𝚒𝚘𝚗 𝚋𝚎𝚝𝚠𝚎𝚎𝚗 𝚋𝚘𝚍𝚢 𝚊𝚗𝚍 𝚜𝚘𝚞𝚕.𝙸𝚝 𝚖𝚊𝚢 𝚑𝚞𝚛𝚝, 𝚛𝚎𝚚𝚞𝚒𝚛𝚎𝚜 𝚍𝚎𝚍𝚒𝚌𝚊𝚝𝚒𝚘𝚗, 𝚜𝚊𝚌𝚛𝚒𝚏𝚒𝚜𝚎 𝚊𝚗𝚍 𝚠𝚒𝚕𝚕𝚙𝚘𝚠𝚎𝚛.𝚃𝚑𝚎𝚛𝚎 𝚠𝚒𝚕𝚕 𝚋𝚎 𝚝𝚎𝚖𝚙𝚝𝚊𝚝𝚒𝚘𝚗.𝙱𝚞𝚝 𝚠𝚎 𝚙𝚛𝚘𝚖𝚒𝚜𝚎 𝚢𝚘𝚞, 𝚠𝚑𝚎𝚗 𝚢𝚘𝚞 𝚛𝚎𝚊𝚌𝚑 𝚢𝚘𝚞𝚛 𝚐𝚘𝚊𝚕, 𝙸𝚝𝚜 𝚠𝚘𝚛𝚝𝚑 𝚒𝚝..</b><br>
   <b>𝐊𝐄𝐄𝐏 𝐓𝐇𝐄 𝐅𝐈𝐑𝐄 𝐀𝐍𝐃 𝐆𝐈𝐕𝐄 𝐀 𝐁𝐋𝐀𝐒𝐓</b><br>
-  𝙽𝚎𝚟𝚎𝚛 𝚖𝚒𝚜𝚜 𝚝𝚑𝚒𝚜 𝚊𝚠𝚎𝚜𝚘𝚖𝚎 𝚙𝚘𝚜𝚜𝚒𝚋𝚒𝚕𝚒𝚝𝚢:sparkles:<br>
+  𝙽𝚎𝚟𝚎𝚛 𝚖𝚒𝚜𝚜 𝚝𝚑𝚒𝚜 𝚊𝚠𝚎𝚜𝚘𝚖𝚎 𝚙𝚘𝚜𝚜𝚒𝚋𝚒𝚕𝚒𝚝𝚢<br>
 
 𝘛𝘦𝘢𝘮 𝘮𝘢𝘺 𝘩𝘢𝘷𝘦 𝘢 𝘮𝘢𝘹𝘪𝘮𝘶𝘮 𝘰𝘧 30 𝘮𝘦𝘮𝘣𝘦𝘳𝘴<br>
 𝘛𝘩𝘦𝘮𝘢𝘵𝘪𝘤 𝘢𝘯𝘥 𝘕𝘰𝘯- 𝘵𝘩𝘦𝘮𝘢𝘵𝘪𝘤 𝘥𝘢𝘯𝘤𝘦𝘴 𝘢𝘳𝘦 𝘢𝘭𝘭𝘰𝘸𝘦𝘥<br>
@@ -1119,39 +1364,24 @@ discover that it can make creative fuel from anything.” </b><br>
     number1: "Aparna : 9605057030",
     number2: "Nikil Ramanan : 7356041125"
   },
+ 
   {
-    id: 207,
-    name: "Lecture Class",
-    department: "MECH",
-    image: "/images/207.webp",
-    description: "Coming Soon....",
-    prize: "NA",
-    registration: "250",
-    number1: "NA",
-    number2: "NA"
-  },
-  {
-    id: 208,
-    name: "Ducati Workshop",
-    department: "MECH",
-    image: "/images/208.webp",
-    description: "Coming Soon",
-    prize: "NA",
-    registration: "500",
-    number1: "NA",
-    number2: "NA"
-  },
-  {
-    id: 16,
+    id: 17,
     name: "Brew With Us",
     department: "CSEIT",
-    image: "/images/16.webp",
-    description: `"<h2>Learning Station</h2><hr>
+    image: "/images/17.webp",
+    description: `<h2>Learning Station</h2><hr>
      <b>A bunch of people with common goal!!<b>
     
-    
-    "`,
-    prize: "NA",
+
+     Learn …..Build….Collaborate<br>
+     The best way to learn is through your peers.<br>
+     We at Technaura 2020 opening the  door of knowledge for everyone <br>
+     Join us<br>
+     <b>Lets learn together</b><br>
+     <b>Lets Brew With Us</b><br>
+     `,
+    prize: "",
     registration: "10",
     number1: "Akash Sajeev : 7558082218",
     number2: "Sruthi Sunil : 9447437577"
