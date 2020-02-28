@@ -13,6 +13,7 @@ Lets join this journey to find the secrets of android<br>
    <b>Date : 6/03/2020</b> <br>
     <b>Time : 10am – 3:30pm</b><br>
     <b>Conducted by SPECTRUM SOFTTECH SOLUTIONS PRIVATE LTD</b><br>
+    <a href="https://cempfoss.typeform.com/to/icUtGo">Click here to register</a>
     `,
     registration: "250",
     number1: "Hari Krishna:9744483104",
@@ -150,7 +151,7 @@ Registration link:Click <a href='https://forms.gle/DBm1gTgMevipLsNv5'> here</a>`
     id: 1400,
     name: "ARDUINO WORKSHOP",
     department: "EEE",
-    image: "/images/1400.webp",
+    image: "/images/comingsoon.webp",
     description:`
     LEARNING SOLID PRINCIPES OF ART IS ESSENTIAL BUT IT IS ALSO IMPORTANT TO UNDERSTAND OUR ARTIST MINDSET. WHEN WE LEAVE A WORKSHOP WE WANT TO LEAVE A BETTER ARTIST AND A BETTER PERSON.<br>
     &nbsp;&nbsp;&nbsp;&nbsp; <b>-GWEN FOX</b><br>
