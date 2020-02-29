@@ -151,7 +151,7 @@ Registration link:Click <a href='https://forms.gle/DBm1gTgMevipLsNv5'> here</a>`
     id: 1400,
     name: "ARDUINO WORKSHOP",
     department: "EEE",
-    image: "/images/comingsoon.webp",
+    image: "/images/1400.webp",
     description:`
     LEARNING SOLID PRINCIPES OF ART IS ESSENTIAL BUT IT IS ALSO IMPORTANT TO UNDERSTAND OUR ARTIST MINDSET. WHEN WE LEAVE A WORKSHOP WE WANT TO LEAVE A BETTER ARTIST AND A BETTER PERSON.<br>
     &nbsp;&nbsp;&nbsp;&nbsp; <b>-GWEN FOX</b><br>
