@@ -13,6 +13,7 @@ Lets join this journey to find the secrets of android<br>
    <b>Date : 6/03/2020</b> <br>
     <b>Time : 10am – 3:30pm</b><br>
     <b>Conducted by SPECTRUM SOFTTECH SOLUTIONS PRIVATE LTD</b><br>
+    <a href="https://cempfoss.typeform.com/to/icUtGo">Click here to register</a>
     `,
     registration: "250",
     number1: "Hari Krishna:9744483104",
