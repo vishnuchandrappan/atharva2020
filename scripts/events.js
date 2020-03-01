@@ -255,34 +255,6 @@ Google Pay :7025406239
     number2:"Nandu A S:9645307590"
   },
   {
-    id:308,
-    name:"TAKESHI’S CASTLE",
-    department:"CE",
-    image:"/images/308.webp",
-    description:`
-    A Japanese game show that aired between 1986 and 1990, on the Tokyo Broadcasting System.
-It features the Japanese comedian Takeshi Kitano (also known as Beat Takeshi) as a Count
-who owns a castle and sets up difficult challenges for players (or a volunteer army) to get to
-him. The show has become a cult television hit around the world. IN ATHARVA 2020
-tranqullum team brings back tekashi’s castle (The water gun event) in College of Engineering
-and Management Punnapra.<br>
-<h2>RULES AND REGULATIONS</h2><hr><br>
-&nbsp;&nbsp;&nbsp;&nbsp;
-• Guns, Helmets, and jackets will be provided at the venue<br>
-&nbsp;&nbsp;&nbsp;&nbsp;
-• Only team entries are eligible, and team shall consist of 4 persons.<br>
-&nbsp;&nbsp;&nbsp;&nbsp;
-• Replacement of any participant of a team is not allowed after registration<br>
-&nbsp;&nbsp;&nbsp;&nbsp;
-• Details and rules regarding the event will be explained at the venue.<br>
-&nbsp;&nbsp;&nbsp;&nbsp;
-    `,
-    prize:"A surprize gift is waiting for winners",
-    registration:"50",
-    number1:"Nabeel N:9633360172",
-    number2:"Aswathy V S:8547537768"
-  },
-  {
     id:309,
     name:"THROW AND WIN",
     department:"CE",
