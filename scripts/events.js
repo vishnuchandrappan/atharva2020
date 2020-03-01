@@ -44,7 +44,7 @@ cancelled<br>
     number2:"Sruthi V J:9496124074"
   },
   {
-    id:303,
+    id:302,
     name:"ROTOLARE",
     department:"CE",
     image:"/images/comingsoon.webp",
@@ -86,10 +86,10 @@ spirit of the competition will be disqualified<br>
     number2:"112255448"
   },
   {
-    id:304,
+    id:303,
     name:"SENOR AND SENORITA",
     department:"CE",
-    image:"/images/304.webp",
+    image:"/images/303.webp",
     description:`
     <h2>FIND OUT THE BEST CIVIL ENGINEER IN YOU.</h2><hr><br>
 The competition consists of 5 rounds, and each round will evaluate your technical as well as
@@ -140,10 +140,10 @@ disqualified.<br>
     number2:"Surya T S:8157942003"
   },
   {
-    id:305,
+    id:304,
     name:"BRIDGELT",
     department:"CE",
-    image:"/images/305.webp",
+    image:"/images/304.webp",
     description:`
     Ever dreamt of building a masterpiece structure? Ever wanted to showcase the real structural
 engineering skill in you? Here is your chance to prove your mettle as a successful engineer.
@@ -170,10 +170,10 @@ Team Size:4 students per team.<br>
     number2:"Karuna Reji:9562441470"
   },
   {
-    id:306,
+    id:305,
     name:"PAPER PRESENTATION",
     department:"CE",
-    image:"/images/306.webp",
+    image:"/images/305.webp",
     description:`
 Paper presentation is the oral summary of an accomplished research study of an empirical
 or theoretical nature. The presenters are requested to present their papers with only
@@ -229,7 +229,7 @@ Ending time :12.30 pm<br>
     number2:"Vibina Baby:9495031508"
   },
   {
-    id:307,
+    id:306,
     name:"SLIP SOCCER",
     department:"CE",
     image:"/images/comingsoon.webp",
@@ -255,10 +255,10 @@ Google Pay :7025406239
     number2:"Nandu A S:9645307590"
   },
   {
-    id:309,
+    id:307,
     name:"THROW AND WIN",
     department:"CE",
-    image:"/images/309.webp",
+    image:"/images/307.webp",
     description:`
 Throw and win brings back the memories of carnival. In this game one has to ring an item placed on
 the counter from a particular distance specified.
