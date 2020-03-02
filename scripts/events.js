@@ -862,7 +862,7 @@ Football is an art,players paint with their feet<br>
 •Only captains are allowed to contact the committee for queries and complaints.<br>
 •Referees decision is final.<br>
     `,
-    prize:"First :Rs. 3000, Second:Rs. 1500",
+    prize:"First :Rs. 4000, Second:Rs. 1500",
     registration:"300",
     number1:"Abdul Muneer :9847352258",
     number2:"Antony Augustine :9605321621"
@@ -993,7 +993,7 @@ Wire and lit the lamp according to the provided logic.<br>
       Lyrical content:Coherence,Clarity,Ingenuity. <br>
 
       `,
-    prize:"First :Rs. 8000",
+    prize:"First :Rs. 5000,Second :Rs 3000",
     registration:"150",
     number1:"Augustine:9020424755",
     number2:"Ashwani:79941 10801"
