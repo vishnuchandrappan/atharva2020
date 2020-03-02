@@ -616,11 +616,14 @@ Lets bring a change in the world!<br><br>
     <h2>Code Monk —a fun way to become a better programmer!</h2><hr>
     Code Monk is curated list of topics to help you improve your programming skills to the next level.
     The series focuses on aspiring programmers who aim to be better at coding.<br>
-    <h2>Rules and Regulations</h2>
+    <h2>Rules and Guidelines</h2><hr>
     &nbsp&nbsp&nbsp&nbsp&nbsp• Participants are required to solve problems through coding.<br>
     &nbsp&nbsp&nbsp&nbsp&nbsp• Programming and algorithm skills of the participants will be tested.<br>
-    &nbsp&nbsp&nbsp&nbsp&nbsp• Participants can write their code on any language comfortableSystem will be provided <br>
-    &nbsp&nbsp&nbsp&nbsp&nbsp• System will be provided<br>
+    &nbsp&nbsp&nbsp&nbsp&nbsp• You will be given a problem statement and are to complete the task within the given duration<br>
+    &nbsp&nbsp&nbsp&nbsp&nbsp• Participants can write their code on any language comfortable for them<br>
+    &nbsp&nbsp&nbsp&nbsp&nbsp• Participants cannot leave the contest once started<br>
+    &nbsp&nbsp&nbsp&nbsp&nbsp• Use of mobiles and internet is prohibited <br>
+    &nbsp&nbsp&nbsp&nbsp&nbsp• There is no need to bring any system or laptop <br>
     `,
     prize:"First :Rs. 2000",
     registration:"50",
