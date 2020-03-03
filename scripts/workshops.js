@@ -107,7 +107,7 @@ the help of PowerPoint slides.<br>
 Duration of class: 2 and half hour<br>
 Certificates are provided<br>
 Registration link:Click <a href='https://forms.gle/DBm1gTgMevipLsNv5'> here</a>`,
-    registration: "150",
+    registration: "100",
     number1: "Anirudh A : 8594041780",
     number2: "Aswin Lal : 7994209847"
   },
